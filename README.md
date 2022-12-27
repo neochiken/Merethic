@@ -71,6 +71,13 @@ Now, I have not built this list to be as graphically intensive as possible but I
 
 You will need at least `???` of disk space on an SSD for the installation. For the downloads, you will need an extra `???`- ideally you want *at least* `???` to allow for temporary Wabbajack work space as well as the modlist files. It doesn't have to be an NVMe SSD, but a HDD of any kind will make the list painfully unplayable. 
 
+## Creation Club Content
+Tahrovin SE currently only uses the 4 free Creation Club addons:
+  * Fishing
+  * Survival
+  * Saints & Seducers
+  * Rare Curios
+
 ## Accounts
 In terms of accounts you will need:
   * Nexus Premium Account
