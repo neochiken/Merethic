@@ -12,45 +12,33 @@ Tahrovin SE is a NSFW Skyrim modlist that aims to improve and add upon the Skyri
 
 
 # Quick Links
-- [What is Tahrovin SE?](#what-is-Tahrovin SE)
+- [What is Tahrovin SE?](#what-is-tahrovin-se)
 - [Quick Links](#quick-links)
 - [Before You Start](#before-you-start)
   - [Hardware Requirements](#hardware-requirements)
+  - [Creation Club Content](#creation-club-content)
   - [Accounts](#accounts)
 - [Installation](#installation)
   - [Preparation](#preparation)
     - [Install Microsoft Visual C++ Redistributable Packages](#install-microsoft-visual-c-redistributable-packages)
     - [Setup your Page File](#setup-your-page-file)
     - [Setup your Shader Cache](#setup-your-shader-cache)
-    - [Configuring Steam](#configuring-steam)
     - [Disable Steam Overlay](#disable-steam-overlay)
     - [Set game language to English](#set-game-language-to-english)
     - [Change Steam's Updating Behavior](#change-steams-updating-behavior)
-    - [Clean current Skyrim installation](#clean-current-skyrim-vr-installation)
-    - [Install Skyrim](#install-skyrim-vr)
-    - [Start Skyrim](#start-skyrim-vr)
+    - [Clean current Skyrim installation](#clean-current-skyrim-installation)
+    - [Install Skyrim](#install-skyrim)
+    - [Start Skyrim](#start-skyrim)
   - [Wabbajack](#wabbajack)
   - [Commonly Failing Downloads](#commonly-failing-downloads)
   - [Troubleshooting](#troubleshooting)
 - [Post-Installation](#post-installation)
   - [Stock Game](#stock-game)
-  - [ENB Selection](#enb-selection)
   - [Creating a desktop shortcut](#creating-a-desktop-shortcut)
-  - [INI Configuration](#ini-configuration)
 - [Pre-Game Launch](#pre-game-launch)
 - [From the Main Menu](#from-the-main-menu)
-- [Mod Setup - THIS STEP HAS RECENTLY CHANGED - PLEASE READ TO THE END!](#mod-setup---this-step-has-recently-changed---please-read-to-the-end)
-    - [*THIS STEP IS IMPORTANT! IF YOU DO NOT DO THIS STEP, YOUR GAME WILL NOT FUNCTION CORRECTLY!*](#this-step-is-important-if-you-do-not-do-this-step-your-game-will-not-function-correctly)
-  - [Mods of Interest](#mods-of-interest)
-  - [Controller Bindings](#controller-bindings)
-  - [Playing in Seated Mode](#playing-in-seated-mode)
-- [FAQ](#faq)
-  - [Where's my UI?](#wheres-my-ui)
-  - [Help I can't see my game!](#help-i-cant-see-my-game)
-  - [Is there a way for me to see myself?](#is-there-a-way-for-me-to-see-myself)
-  - [My game won't start even after a fresh install!](#my-game-wont-start-even-after-a-fresh-install)
-- [Updating Tahrovin SE](#updating-Tahrovin SE)
-- [Uninstalling Tahrovin SE](#uninstalling-Tahrovin SE)
+- [Updating Tahrovin SE](#updating-tahrovin-se)
+- [Uninstalling Tahrovin SE](#uninstalling-tahrovin-se)
 - [Thank You's](#thank-yous)
 
 
@@ -197,6 +185,8 @@ The main quest isn't started in the usual way because the vanilla intro to the g
 When starting a new game, create your character and once done, *DO NOTHING ELSE* and allow the mods to initialise. Once the notifications stop appearing in the top left of your view, you should a full save.
 
 The MCM setup is automated and will run on its own after you've finished character creation. As mentioned, *DO NOTHING* until the window pops-up telling you to save.
+
+You should also check your inventory for the Tahrovin Pocket Guide book as that has some useful info you may need when playing.
 
 # Updating Tahrovin SE
 When an update is released, please always check the [changelog](Changelog.md) first. You may not need to update your modlist but if there is anything that resolves game breaking issues, it'll be noted in the changelog. Backup your saves before you commit to any updates, Wabbajack doesn't usually touch save files, it does has the ability to delete them if it wanted to.
