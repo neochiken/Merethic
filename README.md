@@ -1,18 +1,18 @@
-![Tahrovin SE Banner](img/banner.png)
+![Merethic Banner](img/splash.png)
 
 First things first: **this list contains adult content and you must be of legal age in your country. This means 18+ in most countries, 21+ in others. It is up to you to be sure of the age requirement in your country.**
 
-**Support and general talk about Tahrovin SE SE resides on the Jolly Co-operators Discord, in the Unofficial Modlists channels:**
+**Support and general talk about Merethic SE resides on the Jolly Co-operators Discord, in the Unofficial Modlists channels:**
 
 [![DiscordButton](img/DiscordButton.png)](https://discord.gg/jolly-coop)
 
 
-# What is Tahrovin SE?
-Tahrovin SE is a NSFW Skyrim modlist that aims to improve and add upon the Skyrim experience. The list offers plenty of eye candy paired with everyone's favourite jiggle physics. Yes, this means plenty of skimpy outfits and selectively crafted bodyslides - and no, it's not supposed to be immersive. Don't worry for those who prefer to play as a male character, males have also received attention in this list.
+# What is Merethic?
+Merethic is a NSFW Skyrim modlist that aims to improve and add upon the Skyrim experience. The list offers plenty of eye candy paired with everyone's favourite jiggle physics. Yes, this means plenty of skimpy outfits and selectively crafted bodyslides - and no, it's not supposed to be immersive. Don't worry for those who prefer to play as a male character, males have also received attention in this list.
 
 
 # Quick Links
-- [What is Tahrovin SE?](#what-is-tahrovin-se)
+- [What is Merethic?](#what-is-merethic)
 - [Quick Links](#quick-links)
 - [Before You Start](#before-you-start)
   - [Hardware Requirements](#hardware-requirements)
@@ -36,8 +36,8 @@ Tahrovin SE is a NSFW Skyrim modlist that aims to improve and add upon the Skyri
   - [Stock Game](#stock-game)
   - [Creating a desktop shortcut](#creating-a-desktop-shortcut)
 - [Mod Setup](#mod-setup)
-- [Updating Tahrovin SE](#updating-tahrovin-se)
-- [Uninstalling Tahrovin SE](#uninstalling-tahrovin-se)
+- [Updating Merethic](#updating-merethic)
+- [Uninstalling Merethic](#uninstalling-merethic)
 - [Thank You's](#thank-yous)
 
 
@@ -59,7 +59,7 @@ Now, I have not built this list to be as graphically intensive as possible but I
 You will need at least `???` of disk space on an SSD for the installation. For the downloads, you will need an extra `???`- ideally you want *at least* `???` to allow for temporary Wabbajack work space as well as the modlist files. It doesn't have to be an NVMe SSD, but a HDD of any kind will make the list painfully unplayable. 
 
 ## Creation Club Content
-Tahrovin SE requires all Creation Club content - **you need the $20 AE upgrade from Steam to install!**
+Merethic requires all Creation Club content - **you need the $20 AE upgrade from Steam to install!**
 
 ## Accounts
 In terms of accounts you will need:
@@ -80,7 +80,7 @@ This package is a must as it is needed by MO2 - you may already have it if you'v
 [Download Visual C++ Redistributable Package.](https://docs.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170)
 
 ### Setup your Page File
-Skyrim modlists need a large amount of memory purely because of the amount of *stuff* in them - especially modlists on the larger side or with a lot going on, like Tahrovin SE. For the best experience, you should setup a pagefile of at least **20GB** - yes, even if you have a million GB of RAM. To setup your pagfile;
+Skyrim modlists need a large amount of memory purely because of the amount of *stuff* in them - especially modlists on the larger side or with a lot going on, like Merethic. For the best experience, you should setup a pagefile of at least **20GB** - yes, even if you have a million GB of RAM. To setup your pagfile;
 
 1. Hold down the *LEFT* Windows key and press **R**
 2. Type in `systempropertiesadvanced` in the run box and then press ENTER
@@ -138,9 +138,9 @@ Once you've done the steps above, you can now set Steam to download Skyrim again
 That's right - start the game. You need to let the game do its initial start up jobs such as creating registry entries and generating default config files. Once you've gotten to the main menu you can close the game again.
 
 ## Wabbajack
-Installing the list is straight forward, Wabbajack will do most of the heavy lifting for you - you only have to tell it where to put stuff. Grab Tahrovin SE from the Wabbajack UI, once its downloaded the initial stuff it needs, Wabbajack will have 2 things for you to do - fill in the installation location and the download location. 
+Installing the list is straight forward, Wabbajack will do most of the heavy lifting for you - you only have to tell it where to put stuff. Grab Merethic from the Wabbajack UI, once its downloaded the initial stuff it needs, Wabbajack will have 2 things for you to do - fill in the installation location and the download location. 
 
-Set the installation location to a folder on the root of a drive, something like `C:\Tahrovin SE`. Do not install it to one of the protected folders as mentioned earlier. The download location will have likely been filled in for you too - ensure it matches the directory you set for the installation location, or if you have multiple Skyrim modlists installed, use a common download folder - this will stop you from having to redownload common mods across multiple modlists. 
+Set the installation location to a folder on the root of a drive, something like `C:\Merethic`. Do not install it to one of the protected folders as mentioned earlier. The download location will have likely been filled in for you too - ensure it matches the directory you set for the installation location, or if you have multiple Skyrim modlists installed, use a common download folder - this will stop you from having to redownload common mods across multiple modlists. 
 
 Before you hit **GO**, a quick tip:
 
@@ -157,15 +157,15 @@ Download these files and place them *as they are* into the same folder you told 
 If you're having issues with installation, check the [troubleshooting page](Troubleshooting.md). 
 
 # Post-Installation
-Almost there but we're not out of the woods yet! After Wabbajack has given you the installation successful screen, you're free to close it. Navigate to the Tahrovin SE installation folder and run MO2 by double-clicking `ModOrganizer.exe`.
+Almost there but we're not out of the woods yet! After Wabbajack has given you the installation successful screen, you're free to close it. Navigate to the Merethic installation folder and run MO2 by double-clicking `ModOrganizer.exe`.
 
 ***DO NOT UNDER ANY CIRCUMSTANCES RUN LOOT. The load order is exactly as intended out of the box and you do not need to change it.***
 
 ## Stock Game
-Tahrovin SE utilises the stock game feature offered by Wabbajack, meaning that Wabbajack will make a local copy of your Skyrim game files during the installation process. This means that your Steam installation of Skyrim is completely untouched, even by files that go in the game folder such as ENB files.
+Merethic utilises the stock game feature offered by Wabbajack, meaning that Wabbajack will make a local copy of your Skyrim game files during the installation process. This means that your Steam installation of Skyrim is completely untouched, even by files that go in the game folder such as ENB files.
 
 ## Creating a desktop shortcut
-Nobody wants to be launching their game via multiple clicks, they want to be able to do it from the desktop! This is simple to do - open MO2, ensure **Tahrovin SE** is selected in the dropdown and click the "Shortcut" button. From the small dropdown menu, click "Desktop". Of course, you can always run from inside of MO2 by clicking the "Run" button instead.
+Nobody wants to be launching their game via multiple clicks, they want to be able to do it from the desktop! This is simple to do - open MO2, ensure **Merethic** is selected in the dropdown and click the "Shortcut" button. From the small dropdown menu, click "Desktop". Of course, you can always run from inside of MO2 by clicking the "Run" button instead.
 
 ![Desktop Shortcut Creation](img/DesktopShortcut00.png)
 
@@ -192,19 +192,19 @@ Once selected, hit the `Apply` button and then click `OK` on the confirmation di
 
 You should also check your inventory for the Tahrovin Pocket Guide book as that has some useful info you may need when playing.
 
-# Updating Tahrovin SE
+# Updating Merethic
 When an update is released, please always check the [changelog](Changelog.md) first. You may not need to update your modlist but if there is anything that resolves game breaking issues, it'll be noted in the changelog. Backup your saves before you commit to any updates, Wabbajack doesn't usually touch save files, it does has the ability to delete them if it wanted to.
 
 If you have added anything to this modlist at all, Wabbajack will also delete those. You should know how to stop it from doing this if you're going to add stuff to modlists but if you don't, you have to prepend your mod name with `[NoDelete]` - this will make Wabbajack ignore these files. You will need to reinstall these mods and re-sort their load order after an update though, so I hope you kept backup information on where they went in the load order!
 
 All that aside, updates are basically the same as an installation except you have to ensure that you have the "Overwrite" checkbox ticked in Wabbajack.
 
-# Uninstalling Tahrovin SE
-No fancy uninstallation needed, you can just delete the Tahrovin SE folder and it'll be gone. There'll be no files left inside your Steam installation folder because Tahrovin SE uses the stock game feature of Wabbajack.
+# Uninstalling Merethic
+No fancy uninstallation needed, you can just delete the Merethic folder and it'll be gone. There'll be no files left inside your Steam installation folder because Merethic uses the stock game feature of Wabbajack.
 
 
 # Thank You's
 Massive thank you to the following people:
   * cacophony for making Licentia - Licentia was my first NSFW Skyrim list. It was, and still is, an amazing modlist. Seriously, go play it!
-  * Tsukino for making Tsukiro - Tsukiro is also an amazing modlist that deserves your attention. Tsukiro also inspired Tahrovin SE a lot.
+  * Tsukino for making Tsukiro - Tsukiro is also an amazing modlist that deserves your attention. Tsukiro also inspired Merethic a lot.
   * The Wabbajack team for making the modern day equivalent of a miracle to make all these modlists possible in the first place.
