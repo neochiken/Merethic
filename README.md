@@ -2,7 +2,7 @@
 
 First things first: **this list contains adult content and you must be of legal age in your country. This means 18+ in most countries, 21+ in others. It is up to you to be sure of the age requirement in your country.**
 
-**Support and general talk about Merethic SE resides on the Jolly Co-operators Discord, in the Unofficial Modlists channels:**
+**Support and general talk about Merethic resides on the Jolly Co-operators Discord, in the Unofficial Modlists channels:**
 
 [![DiscordButton](img/DiscordButton.png)](https://discord.gg/jolly-coop)
 
