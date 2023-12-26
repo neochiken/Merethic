@@ -17,6 +17,7 @@ Merethic is a NSFW Skyrim modlist that aims to improve and add upon the Skyrim e
 - [Before You Start](#before-you-start)
   - [Hardware Requirements](#hardware-requirements)
   - [Creation Club Content](#creation-club-content)
+  - [Non-Nexus Mods](#non-nexus-mods)
   - [Accounts](#accounts)
 - [Installation](#installation)
   - [Preparation](#preparation)
@@ -48,24 +49,27 @@ Before you dive in, there's a couple things you need to be sure of first:
 I run a relatively powerful PC with the following specs:
   * CPU: Ryzen 7 5800X3D
   * RAM: 32GB DDR4 @ 3600MHz
-  * GPU: RTX 3090
-
+  * GPU: RTX 4090
 
 Now, I have not built this list to be as graphically intensive as possible but I have taken some liberties in installing higher resolution textures as well as an extremely nice ENB preset. With that in mind, I'd recommend at least the following specs for the best experience:
   * CPU: Intel 7th gen *OR* AMD Ryzen 3000 series 
   * RAM: 16GB of DDR4
-  * GPU: RTX 2060 *or the AMD equivalent with at least 6GB of VRAM*
+  * GPU: RTX 2080 *or the AMD equivalent with at least 8GB of VRAM*
 
 You will need at least `???` of disk space on an SSD for the installation. For the downloads, you will need an extra `???`- ideally you want *at least* `???` to allow for temporary Wabbajack work space as well as the modlist files. It doesn't have to be an NVMe SSD, but a HDD of any kind will make the list painfully unplayable. 
 
 ## Creation Club Content
 Merethic requires all Creation Club content - **you need the $20 AE upgrade from Steam to install!**
 
+Remember to download all of it from the Creations menu in the vanilla game before starting the Wabbajack install.
+
+## Non-Nexus Mods
+I recommend you download all of the non-Nexus hosted mods before starting the Wabbajack install. Links to all of these mods can be found on the [GitHub Wiki](https://github.com/iAmMe27/Merethic/wiki).
+
 ## Accounts
 In terms of accounts you will need:
   * Nexus Premium Account
   * LoversLab Account
-  * VectorPlexus Account
 
 Whilst you don't *need* a Nexus premium account to install the modlist, you'll have a considerably better time of it if you do.
 
@@ -149,7 +153,7 @@ Before you hit **GO**, a quick tip:
 Once you have everything set in Wabbajack, hit **GO** and let it do its thing. It might take a while as there is a fair bit to download and the speed of this will depend on your internet performance as well as your CPU in the later stages for hashing and unpacking the downloads.
 
 ## Commonly Failing Downloads
-Downloads from file hosts such as Google Drive and Mega can sometimes be a pain and refuse to download automatically via Wabbajack for reasons unknown. Any files that might give you trouble [can be found here for manual download](https://github.com/iAmMe27/Tahrovin%20SE/wiki/Commonly-Failing-Downloads).
+Downloads from file hosts such as Google Drive and Mega can sometimes be a pain and refuse to download automatically via Wabbajack for reasons unknown. Any files that might give you trouble [can be found here for manual download](https://github.com/iAmMe27/Merethic/wiki).
 
 Download these files and place them *as they are* into the same folder you told Wabbajack to put your downloads in. Let me reiterate just to be sure - **do not unzip the archives!**
 
@@ -169,14 +173,21 @@ Nobody wants to be launching their game via multiple clicks, they want to be abl
 
 ![Desktop Shortcut Creation](img/DesktopShortcut00.png)
 
-Done! You should now have a shortcut on your desktop which you can now run the modlist from. Don't run Skyrim from within Steam as it won't launch MO2's virtual file system to make a modded game instance.
+Done! You should now have a shortcut on your desktop which you can now run the modlist from. Don't run Skyrim from within Steam.
 
 # Mod Setup
-When starting a new game, create your character and once done, *DO NOTHING ELSE* and allow the mods to initialise and the MCM recording to run.
+When starting a new game, create your character and once done, *DO NOTHING ELSE* and allow the mods to initialise.
 
-The MCM setup is automated and will run on its own after you've finished character creation. As mentioned, *DO NOTHING* until the window pops-up telling you to save.
+Once initialised, open the MCM Config menu, navigate to the MCM Recorder menu and run `Part 1`. Play the recording and allow it to finish. 
 
-IED needs manual setup currently - I promise it won't take long:
+Save your game and reload.
+
+Navigate to the same menu and run `Part 2`.
+
+Save your game and reload.
+
+
+IED needs manual setup currently:
 
 Without the game paused, press `BACKSPACE` to open the IED menu and in the top menu bar, click `View` and then `Gear Positioning` to open the Gear Positioning menu.
 
