@@ -2,20 +2,19 @@
 
 First things first: **this list contains adult content and you must be of legal age in your country. This means 18+ in most countries, 21+ in others. It is up to you to be sure of the age requirement in your country.**
 
-**Support and general talk about Merethic resides on the Jolly Co-operators Discord, in the Unofficial Modlists channels:**
-
-[![DiscordButton](img/DiscordButton.png)](https://discord.gg/jolly-coop)
-
-
 # What is Merethic?
-Merethic is a NSFW Skyrim modlist that aims to improve and add upon the Skyrim experience. The list offers plenty of eye candy paired with everyone's favourite jiggle physics. Yes, this means plenty of skimpy outfits and selectively crafted bodyslides - and no, it's not supposed to be immersive. Don't worry for those who prefer to play as a male character, males have also received attention in this list.
+Merethic is a NSFW Skyrim modlist that aims to improve and add upon the Skyrim experience. It's a power fantasy list with new lands and new areas added to Skyrim to encourage exploring.
 
+# Need Support?
+![https://discord.gg/WWx6bjmR](img/DiscordButton.png)
 
 # Quick Links
 - [What is Merethic?](#what-is-merethic)
+- [Need Support?](#need-support)
 - [Quick Links](#quick-links)
 - [Before You Start](#before-you-start)
   - [Hardware Requirements](#hardware-requirements)
+  - [Storage Space](#storage-space)
   - [Creation Club Content](#creation-club-content)
   - [Non-Nexus Mods](#non-nexus-mods)
   - [Accounts](#accounts)
@@ -23,7 +22,6 @@ Merethic is a NSFW Skyrim modlist that aims to improve and add upon the Skyrim e
   - [Preparation](#preparation)
     - [Install Microsoft Visual C++ Redistributable Packages](#install-microsoft-visual-c-redistributable-packages)
     - [Setup your Page File](#setup-your-page-file)
-    - [Setup your Shader Cache](#setup-your-shader-cache)
     - [Disable Steam Overlay](#disable-steam-overlay)
     - [Set game language to English](#set-game-language-to-english)
     - [Change Steam's Updating Behavior](#change-steams-updating-behavior)
@@ -34,34 +32,35 @@ Merethic is a NSFW Skyrim modlist that aims to improve and add upon the Skyrim e
   - [Commonly Failing Downloads](#commonly-failing-downloads)
   - [Troubleshooting](#troubleshooting)
 - [Post-Installation](#post-installation)
-  - [Stock Game](#stock-game)
   - [Creating a desktop shortcut](#creating-a-desktop-shortcut)
 - [Mod Setup](#mod-setup)
 - [Updating Merethic](#updating-merethic)
 - [Uninstalling Merethic](#uninstalling-merethic)
-- [Thank You's](#thank-yous)
 
 
 # Before You Start
 Before you dive in, there's a couple things you need to be sure of first:
 
 ## Hardware Requirements
-I run a relatively powerful PC with the following specs:
-  * CPU: Ryzen 7 5800X3D
-  * RAM: 32GB DDR4 @ 3600MHz
-  * GPU: RTX 4090
 
-Now, I have not built this list to be as graphically intensive as possible but I have taken some liberties in installing higher resolution textures as well as an extremely nice ENB preset. With that in mind, I'd recommend at least the following specs for the best experience:
-  * CPU: Intel 7th gen *OR* AMD Ryzen 3000 series 
-  * RAM: 16GB of DDR4
-  * GPU: RTX 2080 *or the AMD equivalent with at least 8GB of VRAM*
+|             | CPU                             | RAM                 | GPU                                             |
+|-------------|---------------------------------|---------------------|-------------------------------------------------|
+| Minimum     | Intel 7th Gen,  AMD 3000 Series | 16GB DDR4 @ 3000MHz | RTX 3070 (at least 8GB of VRAM) |
+| Recommended | Intel 9th Gen, AMD 5800X        | 32GB DDR4 @ 3600MHz | RTX 4070                        |
 
-You will need at least `???` of disk space on an SSD for the installation. For the downloads, you will need an extra `???`- ideally you want *at least* `???` to allow for temporary Wabbajack work space as well as the modlist files. It doesn't have to be an NVMe SSD, but a HDD of any kind will make the list painfully unplayable. 
+## Storage Space
+
+|             | Total Space   | Storage Type        |
+|-------------|---------------|---------------------|
+| Minimum     | 450GB         | SATA SSD            |
+| Recommended | 600GB         | NVMe SSD            | 
 
 ## Creation Club Content
-Merethic requires all Creation Club content - **you need the $20 AE upgrade from Steam to install!**
 
-Remember to download all of it from the Creations menu in the vanilla game before starting the Wabbajack install.
+>[!WARNING]
+> Merethic requires all Creation Club content - **you need the $20 AE upgrade from Steam to install!**
+>
+> Remember to download all of it from the Creations menu in the vanilla game before starting the Wabbajack install.
 
 ## Non-Nexus Mods
 I recommend you download all of the non-Nexus hosted mods before starting the Wabbajack install. Links to all of these mods can be found on the [GitHub Wiki](https://github.com/iAmMe27/Merethic/wiki).
@@ -74,7 +73,7 @@ In terms of accounts you will need:
 Whilst you don't *need* a Nexus premium account to install the modlist, you'll have a considerably better time of it if you do.
 
 # Installation
-Please follow all of steps below if it is your first time installing this modlist, if you're updating you can [jump straight there](#updating-Tahrovin-SE).
+Please follow all of steps below if it is your first time installing this modlist, if you're updating you can [jump straight there](#updating-Merethic-SE).
 
 ## Preparation
 
@@ -101,19 +100,6 @@ Skyrim modlists need a large amount of memory purely because of the amount of *s
 12. Press OK
 13. Press APPLY and then OK
 14. Restart your PC to apply the pagefile setting
-
-### Setup your Shader Cache
-Driver defaults from Nvidia and AMD for shader cache size is limited to 4GB. Being this small can lead to rare crashes in heavily modified Skyrim installs. Increasing the shader cache size is done via the Nvidia Control Panel (I assume the same for AMD users is true also but I don't have AMD hardware to check with). 
-
-*These instructions are Nvidia specific as it is the hardware I have.*
-
-1. Open the Nvidia Control Panel
-2. Head to `Manage 3D Settings`
-3. Scroll down in `Global Settings` to find the `Shader Cache Size` option
-4. Set the Shader Cache to *at least* 10GB
-5. Done
-
-![Shader Cache](img/ShaderCache.png)
 
 ### Disable Steam Overlay
 The Steam overlay is known to cause issues for both Skyrim and regular Skyrim SE/AE, especially when using ENBs. I recommend you turn it off to be sure that it doesn't interfere in any way and you can do so by heading into Steam, right
@@ -165,9 +151,6 @@ Almost there but we're not out of the woods yet! After Wabbajack has given you t
 
 ***DO NOT UNDER ANY CIRCUMSTANCES RUN LOOT. The load order is exactly as intended out of the box and you do not need to change it.***
 
-## Stock Game
-Merethic utilises the stock game feature offered by Wabbajack, meaning that Wabbajack will make a local copy of your Skyrim game files during the installation process. This means that your Steam installation of Skyrim is completely untouched, even by files that go in the game folder such as ENB files.
-
 ## Creating a desktop shortcut
 Nobody wants to be launching their game via multiple clicks, they want to be able to do it from the desktop! This is simple to do - open MO2, ensure **Merethic** is selected in the dropdown and click the "Shortcut" button. From the small dropdown menu, click "Desktop". Of course, you can always run from inside of MO2 by clicking the "Run" button instead.
 
@@ -193,7 +176,7 @@ Without the game paused, press `BACKSPACE` to open the IED menu and in the top m
 
 ![](img/IED01.jpg)
 
-In the Gear Positioning menu, ensure you are in the `Global` tab, with the `Player` option selected and then ensure `Sync` is ticked. Then from the `Preset` dropdown, select the `Tahrovin` preset.
+In the Gear Positioning menu, ensure you are in the `Global` tab, with the `Player` option selected and then ensure `Sync` is ticked. Then from the `Preset` dropdown, select the `Merethic` preset.
 
 ![](img/IED02.png)
 
@@ -201,7 +184,7 @@ Once selected, hit the `Apply` button and then click `OK` on the confirmation di
 
 ![](img/IED03.jpg)
 
-You should also check your inventory for the Tahrovin Pocket Guide book as that has some useful info you may need when playing.
+You should also check your inventory for the Merethic Pocket Guide book as that has some useful info you may need when playing.
 
 # Updating Merethic
 When an update is released, please always check the [changelog](Changelog.md) first. You may not need to update your modlist but if there is anything that resolves game breaking issues, it'll be noted in the changelog. Backup your saves before you commit to any updates, Wabbajack doesn't usually touch save files, it does has the ability to delete them if it wanted to.
@@ -212,10 +195,3 @@ All that aside, updates are basically the same as an installation except you hav
 
 # Uninstalling Merethic
 No fancy uninstallation needed, you can just delete the Merethic folder and it'll be gone. There'll be no files left inside your Steam installation folder because Merethic uses the stock game feature of Wabbajack.
-
-
-# Thank You's
-Massive thank you to the following people:
-  * cacophony for making Licentia - Licentia was my first NSFW Skyrim list. It was, and still is, an amazing modlist. Seriously, go play it!
-  * Tsukino for making Tsukiro - Tsukiro is also an amazing modlist that deserves your attention. Tsukiro also inspired Merethic a lot.
-  * The Wabbajack team for making the modern day equivalent of a miracle to make all these modlists possible in the first place.
