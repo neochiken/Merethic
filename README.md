@@ -6,7 +6,7 @@ First things first: **this list contains adult content and you must be of legal 
 Merethic is a NSFW Skyrim modlist that aims to improve and add upon the Skyrim experience. It's a power fantasy list with new lands and new areas added to Skyrim to encourage exploring.
 
 # Need Support?
-![https://discord.gg/WWx6bjmR](img/DiscordButton.png)
+[![DiscordButton](img/DiscordButton.png)](https://discord.gg/WWx6bjmR)
 
 # Quick Links
 - [What is Merethic?](#what-is-merethic)
@@ -30,7 +30,6 @@ Merethic is a NSFW Skyrim modlist that aims to improve and add upon the Skyrim e
     - [Start Skyrim](#start-skyrim)
   - [Wabbajack](#wabbajack)
   - [Commonly Failing Downloads](#commonly-failing-downloads)
-  - [Troubleshooting](#troubleshooting)
 - [Post-Installation](#post-installation)
   - [Creating a desktop shortcut](#creating-a-desktop-shortcut)
 - [Mod Setup](#mod-setup)
@@ -143,9 +142,6 @@ Downloads from file hosts such as Google Drive and Mega can sometimes be a pain 
 
 Download these files and place them *as they are* into the same folder you told Wabbajack to put your downloads in. Let me reiterate just to be sure - **do not unzip the archives!**
 
-## Troubleshooting
-If you're having issues with installation, check the [troubleshooting page](Troubleshooting.md). 
-
 # Post-Installation
 Almost there but we're not out of the woods yet! After Wabbajack has given you the installation successful screen, you're free to close it. Navigate to the Merethic installation folder and run MO2 by double-clicking `ModOrganizer.exe`.
 
@@ -187,7 +183,7 @@ Once selected, hit the `Apply` button and then click `OK` on the confirmation di
 You should also check your inventory for the Merethic Pocket Guide book as that has some useful info you may need when playing.
 
 # Updating Merethic
-When an update is released, please always check the [changelog](Changelog.md) first. You may not need to update your modlist but if there is anything that resolves game breaking issues, it'll be noted in the changelog. Backup your saves before you commit to any updates, Wabbajack doesn't usually touch save files, it does has the ability to delete them if it wanted to.
+When an update is released, please always check the [changelog](changelog.md) first. You may not need to update your modlist but if there is anything that resolves game breaking issues, it'll be noted in the changelog. Backup your saves before you commit to any updates, Wabbajack doesn't usually touch save files, it does has the ability to delete them if it wanted to.
 
 If you have added anything to this modlist at all, Wabbajack will also delete those. You should know how to stop it from doing this if you're going to add stuff to modlists but if you don't, you have to prepend your mod name with `[NoDelete]` - this will make Wabbajack ignore these files. You will need to reinstall these mods and re-sort their load order after an update though, so I hope you kept backup information on where they went in the load order!
 
