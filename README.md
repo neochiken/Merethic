@@ -52,7 +52,7 @@ Before you dive in, there's a couple things you need to be sure of first:
 |             | Total Space   | Storage Type        |
 |-------------|---------------|---------------------|
 | Minimum     | 450GB         | SATA SSD            |
-| Recommended | 600GB         | NVMe SSD            | 
+| Recommended | 600GB         | NVMe SSD            |
 
 ## Creation Club Content
 
@@ -77,7 +77,7 @@ Please follow all of steps below if it is your first time installing this modlis
 ## Preparation
 
 ### Install Microsoft Visual C++ Redistributable Packages
-This package is a must as it is needed by MO2 - you may already have it if you've used MO2 before. If you do not have it, you want to download the x64 version under "Visual Studio 2015, 2017 and 2019".
+MO2 and various SKSE mods need this - don't skip it.
 
 [Download Visual C++ Redistributable Package.](https://docs.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170)
 
@@ -101,8 +101,7 @@ Skyrim modlists need a large amount of memory purely because of the amount of *s
 14. Restart your PC to apply the pagefile setting
 
 ### Disable Steam Overlay
-The Steam overlay is known to cause issues for both Skyrim and regular Skyrim SE/AE, especially when using ENBs. I recommend you turn it off to be sure that it doesn't interfere in any way and you can do so by heading into Steam, right
-clicking on Skyrim in your game library and clicking **Properties** > **General** > **Deselect "Enable Steam Overlay while in-game"**.
+The Steam overlay is known to cause issues for both Skyrim and regular Skyrim SE/AE, especially when using ENBs. I recommend you turn it off to be sure that it doesn't interfere in any way and you can do so by heading into Steam, right clicking on Skyrim in your game library and clicking **Properties** > **General** > **Deselect "Enable Steam Overlay while in-game"**.
 
 ### Set game language to English
 Wabbajack and some/most of the modding tools out there only support English language versions of Skyrim. Setting the language to English in Steam will stop issues like Wabbajack file verification failures when installing. As with disabling the overlay, right click on Skyrim in your game library and click **Properties** > **Language** > **Select English**.
@@ -113,37 +112,27 @@ If for some reason Bethesda decide to release an update for Skyrim, everything w
 ### Clean current Skyrim installation
 If you have not yet installed Skyrim, you can skip this part.
 
-1. Right click on Skyrim in your game library and click **Properties** > **Local Files** > **Browse**. 
+1. Right click on Skyrim in your game library and click **Properties** > **Local Files** > **Browse**.
 2. Uninstall the game via Steam - right click on Skyrim in your game library and click **Manage** > **Uninstall**.
 3. Check the explorer window for any left over files - if there are any, delete them.
 4. Open Windows start menu/search and type in `%LOCALAPPDATA%`.
 5. Delete the Skyrim folder.
 6. Head to `Documents\My Games` and delete the Skyrim folder.
 
-### Install Skyrim
-Once you've done the steps above, you can now set Steam to download Skyrim again but ***do not*** install Skyrim to a protected folder, such as `Desktop`, `Downloads` or `Program Files` of any kind. It's best to create a new, dedicated folder for it using the Steam Library function somewhere on the root of your drive such as `C:\SteamLibrary`. A lot of people have a dedicated secondary drive for their games, keeping the OS install separate; using this secondary drive will also work.
-
-### Start Skyrim
-That's right - start the game. You need to let the game do its initial start up jobs such as creating registry entries and generating default config files. Once you've gotten to the main menu you can close the game again.
-
 ## Wabbajack
-Installing the list is straight forward, Wabbajack will do most of the heavy lifting for you - you only have to tell it where to put stuff. Grab Merethic from the Wabbajack UI, once its downloaded the initial stuff it needs, Wabbajack will have 2 things for you to do - fill in the installation location and the download location. 
+Installing the list is straight forward, Wabbajack will do most of the heavy lifting for you - you only have to tell it where to put stuff. Grab Merethic from the iAmDiscord #list-updates channel, once its downloaded the initial stuff it needs, Wabbajack will have 2 things for you to do - fill in the installation location and the download location.
 
-Set the installation location to a folder on the root of a drive, something like `C:\Merethic`. Do not install it to one of the protected folders as mentioned earlier. The download location will have likely been filled in for you too - ensure it matches the directory you set for the installation location, or if you have multiple Skyrim modlists installed, use a common download folder - this will stop you from having to redownload common mods across multiple modlists. 
+Set the installation location to a folder on the root of a drive, something like `C:\Merethic`. Do not install it to one of the protected folders as mentioned earlier. The download location will have likely been filled in for you too - ensure it matches the directory you set for the installation location, or if you have multiple Skyrim modlists installed, use a common download folder - this will stop you from having to redownload common mods across multiple modlists.
 
-Before you hit **GO**, a quick tip:
-
-*To get the best performance with Wabbajack, it is recommended that you have the install folder for Wabbajack, the modlist folder and the downloads folder on an SSD; ideally the same SSD.* After the installation is complete, you can move the downloads folder to a storage HDD or other storage medium to save space on your game installation drive. It's not recommended to allow your drive to exceed 90% of its storage space used - Windows Explorer will show a red bar under your drive if you do go over 90% so you need to be sure that you have enough space on your installation drive so that you won't exceed this 90% storage level.
-
-Once you have everything set in Wabbajack, hit **GO** and let it do its thing. It might take a while as there is a fair bit to download and the speed of this will depend on your internet performance as well as your CPU in the later stages for hashing and unpacking the downloads.
+**I recommend you keep your downloads outside of the Merethic installation folder!** It's best if you use a common folder for all of your Skyrim modlist downloads, to save repeatedly downloading the same mods over and over again.
 
 ## Commonly Failing Downloads
 Downloads from file hosts such as Google Drive and Mega can sometimes be a pain and refuse to download automatically via Wabbajack for reasons unknown. Any files that might give you trouble [can be found here for manual download](https://github.com/iAmMe27/Merethic/wiki).
 
-Download these files and place them *as they are* into the same folder you told Wabbajack to put your downloads in. Let me reiterate just to be sure - **do not unzip the archives!**
+Download these files and place them *as they are* into the Resource Download folder.
 
 # Post-Installation
-Almost there but we're not out of the woods yet! After Wabbajack has given you the installation successful screen, you're free to close it. Navigate to the Merethic installation folder and run MO2 by double-clicking `ModOrganizer.exe`.
+After Wabbajack has given you the installation successful screen, you're free to close it. Navigate to the Merethic installation folder and run MO2 by double-clicking `ModOrganizer.exe`.
 
 ***DO NOT UNDER ANY CIRCUMSTANCES RUN LOOT. The load order is exactly as intended out of the box and you do not need to change it.***
 
@@ -157,7 +146,7 @@ Done! You should now have a shortcut on your desktop which you can now run the m
 # Mod Setup
 When starting a new game, create your character and once done, *DO NOTHING ELSE* and allow the mods to initialise.
 
-Once initialised, open the MCM Config menu, navigate to the MCM Recorder menu and run `Part 1`. Play the recording and allow it to finish. 
+Once initialised, open the MCM Config menu, navigate to the MCM Recorder menu and run `Part 1`. Play the recording and allow it to finish.
 
 Save your game and reload.
 
@@ -168,11 +157,11 @@ Save your game and reload.
 
 IED needs manual setup currently:
 
-Without the game paused, press `BACKSPACE` to open the IED menu and in the top menu bar, click `View` and then `Gear Positioning` to open the Gear Positioning menu.
+Without the game paused, press `BACKSPACE` to open the IED menu and in the top menu bar, click `View` and then `Gear Nodes` to open the Gear Positioning menu.
 
 ![](img/IED01.jpg)
 
-In the Gear Positioning menu, ensure you are in the `Global` tab, with the `Player` option selected and then ensure `Sync` is ticked. Then from the `Preset` dropdown, select the `Merethic` preset.
+In the Gear Nodes menu, ensure you are in the `Global` tab, with the `Player` option selected and then ensure `Sync` is ticked. Then from the `Preset` dropdown, select the `Merethic` preset.
 
 ![](img/IED02.png)
 
@@ -187,7 +176,5 @@ When an update is released, please always check the [changelog](changelog.md) fi
 
 If you have added anything to this modlist at all, Wabbajack will also delete those. You should know how to stop it from doing this if you're going to add stuff to modlists but if you don't, you have to prepend your mod name with `[NoDelete]` - this will make Wabbajack ignore these files. You will need to reinstall these mods and re-sort their load order after an update though, so I hope you kept backup information on where they went in the load order!
 
-All that aside, updates are basically the same as an installation except you have to ensure that you have the "Overwrite" checkbox ticked in Wabbajack.
-
 # Uninstalling Merethic
-No fancy uninstallation needed, you can just delete the Merethic folder and it'll be gone. There'll be no files left inside your Steam installation folder because Merethic uses the stock game feature of Wabbajack.
+Just delete the Merethic folder and it'll be gone.
