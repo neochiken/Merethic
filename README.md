@@ -8,10 +8,12 @@ Merethic is a NSFW Skyrim modlist that aims to improve and add upon the Skyrim e
 # Need Support?
 [![DiscordButton](img/DiscordButton.png)](https://discord.gg/WWx6bjmR)
 
-# Quick Links
+# Contents
 - [What is Merethic?](#what-is-merethic)
 - [Need Support?](#need-support)
-- [Quick Links](#quick-links)
+- [Contents](#contents)
+- [Preface](#preface)
+- [Quick Links (in case you didn't read the table of contents)](#quick-links-in-case-you-didnt-read-the-table-of-contents)
 - [Before You Start](#before-you-start)
   - [Hardware Requirements](#hardware-requirements)
   - [Storage Space](#storage-space)
@@ -26,8 +28,6 @@ Merethic is a NSFW Skyrim modlist that aims to improve and add upon the Skyrim e
     - [Set game language to English](#set-game-language-to-english)
     - [Change Steam's Updating Behavior](#change-steams-updating-behavior)
     - [Clean current Skyrim installation](#clean-current-skyrim-installation)
-    - [Install Skyrim](#install-skyrim)
-    - [Start Skyrim](#start-skyrim)
   - [Wabbajack](#wabbajack)
   - [Commonly Failing Downloads](#commonly-failing-downloads)
 - [Post-Installation](#post-installation)
@@ -36,9 +36,26 @@ Merethic is a NSFW Skyrim modlist that aims to improve and add upon the Skyrim e
 - [Updating Merethic](#updating-merethic)
 - [Uninstalling Merethic](#uninstalling-merethic)
 
+# Preface
+Just to set some expectations and boundaries surrounding modlist development here, there's a couple things I'd like to say first.
+
+1. As a modlist user, I expect some small efforts into fixing your own issues, mostly by searching the documentation provided here and by the Discord channels. It's very likely any issue you encounter has already been solved - if this is the case and it's well known, don't be surprised if you get ignored.
+   
+2. Support shouldn't be expected as instant - I have a full time job on top of this, as do my mod team, so I ask for a little bit of patience.
+   
+3. Do not expect a 100% polished, well-balanced and "perfect" experience. I am a 1-person dev team and expecting more from me than you would from AAA game studios is insanity.
+   
+4. We're modding a nearly 13 year old game here, please temper your expectations some.
+   
+5. I won't have a specific area for suggestions for mods to add. I have one for WoD and from what I've seen there and in other modlist situations is that people suggest mods that don't fit a lists theme or generally "bad" mods and then feel as if they're ignored or get annoyed when we say "won't add this".
+
+# Quick Links (in case you didn't read the table of contents)
+:arrow_down: [Commonly Failing Downloads](https://github.com/iAmMe27/Merethic/wiki)
+
+:exclamation: [Common Issues](CommonIssues.md)
 
 # Before You Start
-Before you dive in, there's a couple things you need to be sure of first:
+<details open>
 
 ## Hardware Requirements
 
@@ -71,8 +88,11 @@ In terms of accounts you will need:
 
 Whilst you don't *need* a Nexus premium account to install the modlist, you'll have a considerably better time of it if you do.
 
+</details>
+
 # Installation
-Please follow all of steps below if it is your first time installing this modlist, if you're updating you can [jump straight there](#updating-Merethic-SE).
+
+<details open>
 
 ## Preparation
 
@@ -131,6 +151,9 @@ Downloads from file hosts such as Google Drive and Mega can sometimes be a pain 
 
 Download these files and place them *as they are* into the Resource Download folder.
 
+</details>
+
+<details open>
 # Post-Installation
 After Wabbajack has given you the installation successful screen, you're free to close it. Navigate to the Merethic installation folder and run MO2 by double-clicking `ModOrganizer.exe`.
 
