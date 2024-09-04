@@ -54,8 +54,6 @@ Just to set some expectations and boundaries surrounding modlist development her
 :exclamation: [Common Issues](CommonIssues.md)
 
 # Before You Start
-<details open>
-<summary><i>Collapse</i></summary>
 
 ## Hardware Requirements
 
@@ -81,8 +79,6 @@ In terms of accounts you will need:
 
 Whilst you don't *need* a Nexus premium account to install the modlist, you'll have a considerably better time of it if you do.
 
-</details>
-
 # Installation
 
 ## Creation Club Content
@@ -91,9 +87,6 @@ Whilst you don't *need* a Nexus premium account to install the modlist, you'll h
 >Merethic requires all Creation Club content - **you need the $20 AE upgrade from Steam to install!**
 >
 >Remember to download all of it from the Creations menu in the vanilla game before starting the Wabbajack install.
-
-<details open>
-<summary><i>Collapse</i></summary>
 
 ## Preparation
 
@@ -146,13 +139,7 @@ Downloads from non-Nexus file hosts often refuse to download automatically via W
 
 Download these files and place them *as they are* into the Resource Download folder.
 
-</details>
-
 # Post-Installation
-
-<details open>
-<summary><i>Collapse</i></summary>
-
 After Wabbajack has given you the installation successful screen, you're free to close it. Navigate to the Merethic installation folder and run MO2 by double-clicking `ModOrganizer.exe`.
 
 >[!WARNING]
@@ -165,13 +152,7 @@ Open MO2, ensure **Merethic** is selected in the dropdown and click the "Shortcu
 
 ![Desktop Shortcut Creation](img/DesktopShortcut00.png)
 
-</details>
-
 # Mod Setup
-
-<details open>
-<summary><i>Collapse</i></summary>
-
 When starting a new game, create your character and once done, *DO NOTHING ELSE* and allow the mods to initialise.
 
 1. Once initialised, open the MCM Config menu, navigate to the MCM Recorder menu and run `Part 1`. Play the recording and allow it to finish.
@@ -194,8 +175,6 @@ Once selected, hit the `Apply` button and then click `OK` on the confirmation di
 ![](img/IED03.jpg)
 
 You should also check your inventory for the Merethic Pocket Guide book as that has some useful info you may need when playing.
-
-</details>
 
 # Updating Merethic
 When an update is released, please always check the [changelog](changelog.md) first. Backup your saves before you commit to any updates, Wabbajack doesn't usually touch save files, it does has the ability to delete them if it wanted to.
