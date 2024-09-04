@@ -17,10 +17,10 @@ Merethic is a NSFW Skyrim modlist that aims to improve and add upon the Skyrim e
 - [Before You Start](#before-you-start)
   - [Hardware Requirements](#hardware-requirements)
   - [Storage Space](#storage-space)
-  - [Creation Club Content](#creation-club-content)
   - [Non-Nexus Mods](#non-nexus-mods)
   - [Accounts](#accounts)
 - [Installation](#installation)
+  - [Creation Club Content](#creation-club-content)
   - [Preparation](#preparation)
     - [Install Microsoft Visual C++ Redistributable Packages](#install-microsoft-visual-c-redistributable-packages)
     - [Setup your Page File](#setup-your-page-file)
@@ -56,7 +56,7 @@ Just to set some expectations and boundaries surrounding modlist development her
 
 # Before You Start
 <details open>
-<summary>Before You Start</summary>
+<summary><i>Collapse</i></summary>
 
 ## Hardware Requirements
 
@@ -72,13 +72,6 @@ Just to set some expectations and boundaries surrounding modlist development her
 | Minimum     | 450GB         | SATA SSD            |
 | Recommended | 600GB         | NVMe SSD            |
 
-## Creation Club Content
-
->[!WARNING]
-> Merethic requires all Creation Club content - **you need the $20 AE upgrade from Steam to install!**
->
-> Remember to download all of it from the Creations menu in the vanilla game before starting the Wabbajack install.
-
 ## Non-Nexus Mods
 I recommend you download all of the non-Nexus hosted mods before starting the Wabbajack install. Links to all of these mods can be found on the [GitHub Wiki](https://github.com/iAmMe27/Merethic/wiki).
 
@@ -93,8 +86,15 @@ Whilst you don't *need* a Nexus premium account to install the modlist, you'll h
 
 # Installation
 
+## Creation Club Content
+
+>[!WARNING]
+> Merethic requires all Creation Club content - **you need the $20 AE upgrade from Steam to install!**
+>
+> Remember to download all of it from the Creations menu in the vanilla game before starting the Wabbajack install.
+
 <details open>
-<summary>Installation</summary>
+<summary><i>Collapse</i></summary>
 
 ## Preparation
 
@@ -158,7 +158,7 @@ Download these files and place them *as they are* into the Resource Download fol
 # Post-Installation
 
 <details open>
-<summary>Post Installation</summary>
+<summary><i>Collapse</i></summary>
 
 After Wabbajack has given you the installation successful screen, you're free to close it. Navigate to the Merethic installation folder and run MO2 by double-clicking `ModOrganizer.exe`.
 
@@ -176,7 +176,7 @@ Done! You should now have a shortcut on your desktop which you can now run the m
 # Mod Setup
 
 <details open>
-<summary>Mod Setup</summary>
+<summary><i>Collapse</i></summary>
 
 When starting a new game, create your character and once done, *DO NOTHING ELSE* and allow the mods to initialise.
 
