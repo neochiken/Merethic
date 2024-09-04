@@ -56,6 +56,7 @@ Just to set some expectations and boundaries surrounding modlist development her
 
 # Before You Start
 <details open>
+<summary>Before You Start</summary>
 
 ## Hardware Requirements
 
@@ -93,6 +94,7 @@ Whilst you don't *need* a Nexus premium account to install the modlist, you'll h
 # Installation
 
 <details open>
+<summary>Installation</summary>
 
 ## Preparation
 
@@ -153,8 +155,11 @@ Download these files and place them *as they are* into the Resource Download fol
 
 </details>
 
-<details open>
 # Post-Installation
+
+<details open>
+<summary>Post Installation</summary>
+
 After Wabbajack has given you the installation successful screen, you're free to close it. Navigate to the Merethic installation folder and run MO2 by double-clicking `ModOrganizer.exe`.
 
 ***DO NOT UNDER ANY CIRCUMSTANCES RUN LOOT. The load order is exactly as intended out of the box and you do not need to change it.***
@@ -166,19 +171,21 @@ Nobody wants to be launching their game via multiple clicks, they want to be abl
 
 Done! You should now have a shortcut on your desktop which you can now run the modlist from. Don't run Skyrim from within Steam.
 
+</details>
+
 # Mod Setup
+
+<details open>
+<summary>Mod Setup</summary>
+
 When starting a new game, create your character and once done, *DO NOTHING ELSE* and allow the mods to initialise.
 
-Once initialised, open the MCM Config menu, navigate to the MCM Recorder menu and run `Part 1`. Play the recording and allow it to finish.
+1. Once initialised, open the MCM Config menu, navigate to the MCM Recorder menu and run `Part 1`. Play the recording and allow it to finish.
+2. Save your game and reload.
+3. Navigate to the same menu and run `Part 2`.
+4. Save your game and reload.
 
-Save your game and reload.
-
-Navigate to the same menu and run `Part 2`.
-
-Save your game and reload.
-
-
-IED needs manual setup currently:
+**IED currently needs manual setup:**
 
 Without the game paused, press `BACKSPACE` to open the IED menu and in the top menu bar, click `View` and then `Gear Nodes` to open the Gear Positioning menu.
 
@@ -193,6 +200,8 @@ Once selected, hit the `Apply` button and then click `OK` on the confirmation di
 ![](img/IED03.jpg)
 
 You should also check your inventory for the Merethic Pocket Guide book as that has some useful info you may need when playing.
+
+</details>
 
 # Updating Merethic
 When an update is released, please always check the [changelog](changelog.md) first. You may not need to update your modlist but if there is anything that resolves game breaking issues, it'll be noted in the changelog. Backup your saves before you commit to any updates, Wabbajack doesn't usually touch save files, it does has the ability to delete them if it wanted to.
