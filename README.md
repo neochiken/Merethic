@@ -27,7 +27,6 @@ Merethic is a NSFW Skyrim modlist that aims to improve and add upon the Skyrim e
     - [Disable Steam Overlay](#disable-steam-overlay)
     - [Set game language to English](#set-game-language-to-english)
     - [Change Steam's Updating Behavior](#change-steams-updating-behavior)
-    - [Clean current Skyrim installation](#clean-current-skyrim-installation)
   - [Wabbajack](#wabbajack)
   - [Commonly Failing Downloads](#commonly-failing-downloads)
 - [Post-Installation](#post-installation)
@@ -89,9 +88,9 @@ Whilst you don't *need* a Nexus premium account to install the modlist, you'll h
 ## Creation Club Content
 
 >[!WARNING]
-> Merethic requires all Creation Club content - **you need the $20 AE upgrade from Steam to install!**
+>Merethic requires all Creation Club content - **you need the $20 AE upgrade from Steam to install!**
 >
-> Remember to download all of it from the Creations menu in the vanilla game before starting the Wabbajack install.
+>Remember to download all of it from the Creations menu in the vanilla game before starting the Wabbajack install.
 
 <details open>
 <summary><i>Collapse</i></summary>
@@ -99,12 +98,13 @@ Whilst you don't *need* a Nexus premium account to install the modlist, you'll h
 ## Preparation
 
 ### Install Microsoft Visual C++ Redistributable Packages
-MO2 and various SKSE mods need this - don't skip it.
-
-[Download Visual C++ Redistributable Package.](https://docs.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170)
+>[!CAUTION]
+>MO2 and various SKSE mods need this - don't skip it.
+>
+>[Download Visual C++ Redistributable Package.](https://docs.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170)
 
 ### Setup your Page File
-Skyrim modlists need a large amount of memory purely because of the amount of *stuff* in them - especially modlists on the larger side or with a lot going on, like Merethic. For the best experience, you should setup a pagefile of at least **20GB** - yes, even if you have a million GB of RAM. To setup your pagfile;
+Skyrim modlists need a large amount of memory to allocate, even if you have large amounts of RAM. To setup your pagefile;
 
 1. Hold down the *LEFT* Windows key and press **R**
 2. Type in `systempropertiesadvanced` in the run box and then press ENTER
@@ -123,33 +123,26 @@ Skyrim modlists need a large amount of memory purely because of the amount of *s
 14. Restart your PC to apply the pagefile setting
 
 ### Disable Steam Overlay
-The Steam overlay is known to cause issues for both Skyrim and regular Skyrim SE/AE, especially when using ENBs. I recommend you turn it off to be sure that it doesn't interfere in any way and you can do so by heading into Steam, right clicking on Skyrim in your game library and clicking **Properties** > **General** > **Deselect "Enable Steam Overlay while in-game"**.
+The Steam overlay is known to cause issues, especially when using ENBs. Do so by heading into Steam, right clicking on Skyrim in your game library and clicking **Properties** > **General** > **Deselect "Enable Steam Overlay while in-game"**.
 
 ### Set game language to English
-Wabbajack and some/most of the modding tools out there only support English language versions of Skyrim. Setting the language to English in Steam will stop issues like Wabbajack file verification failures when installing. As with disabling the overlay, right click on Skyrim in your game library and click **Properties** > **Language** > **Select English**.
+Wabbajack and some/most of the modding tools out there only support English language versions of Skyrim. Right click on Skyrim in your game library and click **Properties** > **Language** > **Select English**.
 
 ### Change Steam's Updating Behavior
-If for some reason Bethesda decide to release an update for Skyrim, everything will probably break. Well, not *everything* but something will definitely break until mods can be updated to suit. To stop this from happening, you need to tell Steam that you only want to update when you tell it to. You can do this by right clicking on Skyrim in your game library and clicking **Properties** > **Updates** > **Change Automatic Updates to "Only update this game when I launch it"**. Whilst you're in here, it's also recommended to disable Steam Cloud too.
-
-### Clean current Skyrim installation
-If you have not yet installed Skyrim, you can skip this part.
-
-1. Right click on Skyrim in your game library and click **Properties** > **Local Files** > **Browse**.
-2. Uninstall the game via Steam - right click on Skyrim in your game library and click **Manage** > **Uninstall**.
-3. Check the explorer window for any left over files - if there are any, delete them.
-4. Open Windows start menu/search and type in `%LOCALAPPDATA%`.
-5. Delete the Skyrim folder.
-6. Head to `Documents\My Games` and delete the Skyrim folder.
+Do this by right clicking on Skyrim in your game library and clicking **Properties** > **Updates** > **Change Automatic Updates to "Only update this game when I launch it"**. Whilst you're in here, it's also recommended to disable Steam Cloud too.
 
 ## Wabbajack
 Installing the list is straight forward, Wabbajack will do most of the heavy lifting for you - you only have to tell it where to put stuff. Grab Merethic from the iAmDiscord #list-updates channel, once its downloaded the initial stuff it needs, Wabbajack will have 2 things for you to do - fill in the installation location and the download location.
 
 Set the installation location to a folder on the root of a drive, something like `C:\Merethic`. Do not install it to one of the protected folders as mentioned earlier. The download location will have likely been filled in for you too - ensure it matches the directory you set for the installation location, or if you have multiple Skyrim modlists installed, use a common download folder - this will stop you from having to redownload common mods across multiple modlists.
 
-**I recommend you keep your downloads outside of the Merethic installation folder!** It's best if you use a common folder for all of your Skyrim modlist downloads, to save repeatedly downloading the same mods over and over again.
+>[!TIP]
+>**I recommend you keep your downloads outside of the Merethic installation folder!** 
+>
+>It's best if you use a common folder for all of your Skyrim modlist downloads, to save repeatedly downloading the same mods over and over again.
 
 ## Commonly Failing Downloads
-Downloads from file hosts such as Google Drive and Mega can sometimes be a pain and refuse to download automatically via Wabbajack for reasons unknown. Any files that might give you trouble [can be found here for manual download](https://github.com/iAmMe27/Merethic/wiki).
+Downloads from non-Nexus file hosts often refuse to download automatically via Wabbajack for reasons unknown. Any files that might give you trouble [can be found here for manual download](https://github.com/iAmMe27/Merethic/wiki).
 
 Download these files and place them *as they are* into the Resource Download folder.
 
@@ -162,14 +155,15 @@ Download these files and place them *as they are* into the Resource Download fol
 
 After Wabbajack has given you the installation successful screen, you're free to close it. Navigate to the Merethic installation folder and run MO2 by double-clicking `ModOrganizer.exe`.
 
-***DO NOT UNDER ANY CIRCUMSTANCES RUN LOOT. The load order is exactly as intended out of the box and you do not need to change it.***
+>[!WARNING]
+>**DO NOT UNDER ANY CIRCUMSTANCES RUN LOOT.**
+> 
+>The load order is exactly as intended out of the box and you do not need to change it.
 
 ## Creating a desktop shortcut
-Nobody wants to be launching their game via multiple clicks, they want to be able to do it from the desktop! This is simple to do - open MO2, ensure **Merethic** is selected in the dropdown and click the "Shortcut" button. From the small dropdown menu, click "Desktop". Of course, you can always run from inside of MO2 by clicking the "Run" button instead.
+Open MO2, ensure **Merethic** is selected in the dropdown and click the "Shortcut" button. From the small dropdown menu, click "Desktop".
 
 ![Desktop Shortcut Creation](img/DesktopShortcut00.png)
-
-Done! You should now have a shortcut on your desktop which you can now run the modlist from. Don't run Skyrim from within Steam.
 
 </details>
 
@@ -204,9 +198,9 @@ You should also check your inventory for the Merethic Pocket Guide book as that 
 </details>
 
 # Updating Merethic
-When an update is released, please always check the [changelog](changelog.md) first. You may not need to update your modlist but if there is anything that resolves game breaking issues, it'll be noted in the changelog. Backup your saves before you commit to any updates, Wabbajack doesn't usually touch save files, it does has the ability to delete them if it wanted to.
+When an update is released, please always check the [changelog](changelog.md) first. Backup your saves before you commit to any updates, Wabbajack doesn't usually touch save files, it does has the ability to delete them if it wanted to.
 
-If you have added anything to this modlist at all, Wabbajack will also delete those. You should know how to stop it from doing this if you're going to add stuff to modlists but if you don't, you have to prepend your mod name with `[NoDelete]` - this will make Wabbajack ignore these files. You will need to reinstall these mods and re-sort their load order after an update though, so I hope you kept backup information on where they went in the load order!
+If you have added anything to this modlist at all, Wabbajack will also delete those. You should know how to stop it from doing this if you're going to add stuff to modlists.
 
 # Uninstalling Merethic
 Just delete the Merethic folder and it'll be gone.
