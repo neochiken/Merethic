@@ -6,7 +6,7 @@ First things first: **this list contains adult content and you must be of legal 
 Merethic is a NSFW Skyrim modlist that aims to improve and add upon the Skyrim experience. It's a power fantasy list with new lands and new areas added to Skyrim to encourage exploring.
 
 # Need Support?
-[![DiscordButton](img/DiscordButton.png)](https://discord.gg/WWx6bjmR)
+[![DiscordButton](img/DiscordButton.png)](https://discord.gg/iAmModlist)
 
 # Contents
 - [What is Merethic?](#what-is-merethic)
