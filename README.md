@@ -53,6 +53,8 @@ Just to set some expectations and boundaries surrounding modlist development her
 
 :exclamation: [Common Issues](CommonIssues.md)
 
+:wrench: [Advanced Extras - including Performance LODs](Advanced.md)
+
 # Before You Start
 
 ## Hardware Requirements
