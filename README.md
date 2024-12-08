@@ -23,6 +23,7 @@ Merethic is a NSFW Skyrim modlist that aims to improve and add upon the Skyrim e
   - [Creation Club Content](#creation-club-content)
   - [Preparation](#preparation)
     - [Install Microsoft Visual C++ Redistributable Packages](#install-microsoft-visual-c-redistributable-packages)
+    - [Setup your Antivirus](#setup-your-antivirus)
     - [Setup your Page File](#setup-your-page-file)
     - [Disable Steam Overlay](#disable-steam-overlay)
     - [Set game language to English](#set-game-language-to-english)
@@ -97,6 +98,16 @@ Whilst you don't *need* a Nexus premium account to install the modlist, you'll h
 >MO2 and various SKSE mods need this - don't skip it.
 >
 >[Download Visual C++ Redistributable Package.](https://docs.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170)
+
+### Setup your Antivirus
+Before you go down the route of "I don't have an antivirus" - you do, it's built into Windows. You need to exclude your Wabbajack folder and your Merethic installation folder from your antivirus' real-time protection stuff as it will interfere with your install and worst case, it can remove files, ruining your install. It can and will interfere whilst you are playing too, causing poor performance and obvious stuttering.
+
+> [!TIP]
+> How do I do this, you ask? [Click here to find out how.](https://support.microsoft.com/en-gb/windows/add-an-exclusion-to-windows-security-811816c0-4dfd-af4a-47e4-c301afe13b26)
+
+If you use another antivirus program, refer to their steps for adding an exclusion.
+
+If you use Webroot, BitDefender, Norton or Kaspersky, I recommend you stop using these as these programs ***actively*** interfere with modlists even when they are excluded. Plus, you're wasting your money.
 
 ### Setup your Page File
 Skyrim modlists need a large amount of memory to allocate, even if you have large amounts of RAM. To setup your pagefile;
