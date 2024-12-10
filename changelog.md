@@ -84,3 +84,24 @@ Release published on the Wabbajack Gallery :)
 20. Fixed Elven armor textures
 21. Regenerated LODs including changing up LODs to be much more performance friendly with not a massive visual difference
     1.  There is also now a dedicated set of performance LODs. See the readme for a how-to activate these
+
+## Merethic v1.0.1
+1. Fixed MCM recorder errors
+2. Fixed the Pyramid Utils error
+3. Added RaceMenu Undress
+4. Added Hotkey Reminder
+   1. Press F11 to see hotkeys
+
+## Merethic v1.0.2
+1. Fixed Jenassa's appearance
+2. Fixed a couple issues in Rayeks End
+3. Fixed some issues with wild horses
+4. Probably fixed the RaceMenu exit freeze again
+5. Fixed animation conditions for mage robes/clothing (no more vanilla anims for robe wearers)
+6. Fixed the "missing" TAWOBA Steel book
+7. (Hopefully) fixed Vampire Lord and Vampire Brute skeleton issues
+8. Fixed RaceMenu 3BA Morphs not working
+9. Added Mu Joint Fix SexLab patch
+10. Added Better AltTab
+11. Added a couple of NAT 3 Patches
+12. Started to adjust some ENB visuals where needed

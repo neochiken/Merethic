@@ -72,6 +72,8 @@ Just to set some expectations and boundaries surrounding modlist development her
 | Minimum     | 450GB         | SATA SSD            |
 | Recommended | 600GB         | NVMe SSD            |
 
+Your installation must be on an ***internal*** SSD. External SSDs are too slow for modlists to run from.
+
 ## Non-Nexus Mods
 I recommend you download all of the non-Nexus hosted mods before starting the Wabbajack install. Links to all of these mods can be found on the [GitHub Wiki](https://github.com/iAmMe27/Merethic/wiki).
 
