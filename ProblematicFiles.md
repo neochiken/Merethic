@@ -17,3 +17,6 @@ https://www.nexusmods.com/Core/Libs/Common/Widgets/DownloadPopUp?id=564021&nmm=1
 
 ## Merethic Performance DynDOLOD Output
 https://www.nexusmods.com/Core/Libs/Common/Widgets/DownloadPopUp?id=564025&nmm=1&game_id=1704
+
+## [Dint999] BDOR Hairs SSE 0.17
+https://drive.usercontent.google.com/download?id=1tpY3bDs-LR6rptf8oPUfraKs1CkxJJB3&export=download&authuser=0

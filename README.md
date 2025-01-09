@@ -189,8 +189,6 @@ Once selected, hit the `Apply` button and then click `OK` on the confirmation di
 
 ![](img/IED03.jpg)
 
-You should also check your inventory for the Merethic Pocket Guide book as that has some useful info you may need when playing.
-
 # Updating Merethic
 When an update is released, please always check the [changelog](changelog.md) first. Backup your saves before you commit to any updates, Wabbajack doesn't usually touch save files, it does has the ability to delete them if it wanted to.
 

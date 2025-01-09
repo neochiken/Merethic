@@ -105,3 +105,90 @@ Release published on the Wabbajack Gallery :)
 10. Added Better AltTab
 11. Added a couple of NAT 3 Patches
 12. Started to adjust some ENB visuals where needed
+
+## Merethic v1.1.0
+
+**Merethic is now built on Skyrim v1.6.1170!**
+
+1. Updated/Added/Removed various SKSE mods as needed to transition to v1.6.117
+2. Updated Sireroot
+3. Updated a bunch of misc mods
+4. Replaced FNIS/Nemesis with Pandora
+5. Fixed issues with Dismemberment Framework for humanoids
+6. Fixed Bloodchill Cavern entrance
+7. Fixed Lord Harkon's appearance (again)
+8. Fixed Werewolves
+9. Fixed broken Vampire robes
+10. Fixed Whiterun Guard armour
+11. Fixed a crash on Summerset Isle
+12. Fixed an issue with female Coldhaven guard armour
+13. Fixed IED config for Crossbow Bolt placements
+14. Fixed some more missing wench armors
+15. Fixed a couple of issues in the Lair of Succubi
+16. Made a Merethic Music Mega Merge for more variety for your ears
+17. Removed Evenstar - Minimalistic Standing Stones of Skyrim
+18. Removed Blade and Blunt
+19. Removed Aetherius
+19. Removed SL Default Animation Remover
+20. Removed SexLab Separate Orgasm
+21. Removed SexLab Grass Patch
+22. Removed SexLab Cum Overlays Extended
+23. Removed SexLab Better Blowjobs
+24. Removed SL Smooth Expressions
+25. Removed Custom Skills Framework
+26. Removed Custom Skills Menu
+27. Removed Sky Idles
+28. Added SexLab Framework PPlus
+29. Added SexLab Framework PPlus - Autonated SLSB Conversions
+30. Added Misty Skye CBBE 3BA Patch
+31. Added Solstice - a custom standing stones mod for Merethic
+32. Added Merethic Insight
+33. Added Wildcat - Combat of Skyrim
+34. Added Mannaz
+35. Added new anims when wearing nothing
+36. Added Achievement Injector
+37. Added Dac0da
+38. Added DAC0DA - English Translation
+39. Added DAC0DA - Achievement Injector Patch
+40. Added DAc0da - Delayed Start
+41. Added VIGILANT
+42. Added VIGILANT SE HiRes Pack
+43. Added VIGILANT Voiced - English Addon
+44. Added WorldSpaces Patches for Vigilant
+45. Added VIGILANT - NPC Overhaul
+46. Added Vigilant - Achievement Injector Patch
+47. Added misc HD Vigilant Project mods
+48. Added Vigilant Armor HIMBO Refit
+49. Added Vigilant CBBE (3BA) Bodyslide
+50. Added VIGILANT SE - Settings Loader
+51. Added Vigilant - Delayed Start
+52. Added GLENMORIL SE
+53. Added GLENMORIL - English Translation
+54. Added GLENMORIL - NPC Overhaul
+55. Added Glenmoril - Delayed Start
+56. Added GLENMORIL CBBE 3BA Patch
+57. Added GLENMORIL SE - Settings Loader
+58. Added Unslaad SE
+59. Added UNSLAAD Voiced - English Addon
+60. Added WorldSpaces Patches for Unslaad
+61. Added Customized Object Lod For Unslaad SE
+62. Added Unslaad - Achievement Injector Patch
+63. Added Unslaad - Delayed Start
+64. Added Unslaad SE - Settings Loader
+65. Added Unslaad CBBE (3BA) Bodyslide
+66. Added TrueHUD - Unslaad Boss Bars ini
+67. Added TrueHUD - Vigilant Boss Bars ini
+68. Added a funni in the College of Winterhold
+69. Added a funni in Hendraheim
+70. Added More Carriages
+71. Added More Ferries
+72. Added some pubic options for futa characters
+73. Added some more RaceMenu presets
+74. Added Novice Bolt Spells
+75. Added Eyes of Aber SE
+76. Added Even More Eyes by Koralina
+77. Added BnP Eye Pack
+78. Added Eyes of Ellxe
+79. Added Natural Pubic Hairstyles
+80. Started some first person outfit fixes such as mismatched colours. If you spot any, let me know.
+81. Changed BnP skin choices. If you want the pre-v1.10 skin config, find it in the `Appearance` separator
