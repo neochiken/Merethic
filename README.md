@@ -5,30 +5,36 @@ First things first: **this list contains adult content and you must be of legal 
 # What is Merethic?
 Merethic is a NSFW Skyrim modlist that aims to improve and add upon the Skyrim experience. It's a power fantasy list with new lands and new areas added to Skyrim to encourage exploring.
 
+# Quick Links
+:arrow_down: [All Manual Downloads](https://github.com/iAmMe27/Merethic/wiki)
+
+:file_folder: [Known Problematic Downloads](ProblematicFiles.md)
+
+:exclamation: [Common Issues](CommonIssues.md)
+
+:wrench: [Advanced Extras - including Performance LODs](Advanced.md)
+
 # Need Support?
 [![DiscordButton](img/DiscordButton.png)](https://discord.gg/iAmModlist)
 
 # Contents
 - [What is Merethic?](#what-is-merethic)
+- [Quick Links](#quick-links)
 - [Need Support?](#need-support)
 - [Contents](#contents)
 - [Preface](#preface)
-- [Quick Links (in case you didn't read the table of contents)](#quick-links-in-case-you-didnt-read-the-table-of-contents)
-- [Before You Start](#before-you-start)
-  - [Hardware Requirements](#hardware-requirements)
+- [Hardware Requirements](#hardware-requirements)
   - [Storage Space](#storage-space)
-  - [Non-Nexus Mods](#non-nexus-mods)
-  - [Accounts](#accounts)
-- [Installation](#installation)
+- [You Will Need](#you-will-need)
+- [Pre-Installation](#pre-installation)
   - [Creation Club Content](#creation-club-content)
-  - [Preparation](#preparation)
-    - [Install Microsoft Visual C++ Redistributable Packages](#install-microsoft-visual-c-redistributable-packages)
-    - [Setup your Antivirus](#setup-your-antivirus)
-    - [Setup your Page File](#setup-your-page-file)
-    - [Disable Steam Overlay](#disable-steam-overlay)
-    - [Set game language to English](#set-game-language-to-english)
-    - [Change Steam's Updating Behavior](#change-steams-updating-behavior)
-  - [Wabbajack](#wabbajack)
+  - [Install Microsoft Visual C++ Redistributable Packages](#install-microsoft-visual-c-redistributable-packages)
+  - [Setup your Antivirus](#setup-your-antivirus)
+  - [Setup your Page File](#setup-your-page-file)
+  - [Disable Steam Overlay](#disable-steam-overlay)
+  - [Set game language to English](#set-game-language-to-english)
+  - [Change Steam's Updating Behavior](#change-steams-updating-behavior)
+- [Installation](#installation)
   - [Commonly Failing Downloads](#commonly-failing-downloads)
 - [Post-Installation](#post-installation)
   - [Creating a desktop shortcut](#creating-a-desktop-shortcut)
@@ -49,16 +55,7 @@ Just to set some expectations and boundaries surrounding modlist development her
    
 5. I won't have a specific area for suggestions for mods to add. I have one for WoD and from what I've seen there and in other modlist situations is that people suggest mods that don't fit a lists theme or generally "bad" mods and then feel as if they're ignored or get annoyed when we say "won't add this".
 
-# Quick Links (in case you didn't read the table of contents)
-:arrow_down: [Commonly Failing Downloads](https://github.com/iAmMe27/Merethic/wiki)
-
-:exclamation: [Common Issues](CommonIssues.md)
-
-:wrench: [Advanced Extras - including Performance LODs](Advanced.md)
-
-# Before You Start
-
-## Hardware Requirements
+# Hardware Requirements
 
 |             | CPU                             | RAM                 | GPU                                             |
 |-------------|---------------------------------|---------------------|-------------------------------------------------|
@@ -72,19 +69,16 @@ Just to set some expectations and boundaries surrounding modlist development her
 | Minimum     | 450GB         | SATA SSD            |
 | Recommended | 600GB         | NVMe SSD            |
 
-Your installation must be on an ***internal*** SSD. External SSDs are too slow for modlists to run from.
+Your installation must be on an ***internal*** SSD. External SSDs & HDDs are too slow for modlists to run from.
 
-## Non-Nexus Mods
-I recommend you download all of the non-Nexus hosted mods before starting the Wabbajack install. Links to all of these mods can be found on the [GitHub Wiki](https://github.com/iAmMe27/Merethic/wiki).
+# You Will Need
+  * A Nexus Premium Account
+  * A LoversLab Account
+  * Patience
 
-## Accounts
-In terms of accounts you will need:
-  * Nexus Premium Account
-  * LoversLab Account
+# Pre-Installation
 
-Whilst you don't *need* a Nexus premium account to install the modlist, you'll have a considerably better time of it if you do.
-
-# Installation
+**This stuff needs to be done BEFORE starting the Wabbajack installation.**
 
 ## Creation Club Content
 
@@ -93,25 +87,23 @@ Whilst you don't *need* a Nexus premium account to install the modlist, you'll h
 >
 >Remember to download all of it from the Creations menu in the vanilla game before starting the Wabbajack install.
 
-## Preparation
-
-### Install Microsoft Visual C++ Redistributable Packages
+## Install Microsoft Visual C++ Redistributable Packages
 >[!CAUTION]
 >MO2 and various SKSE mods need this - don't skip it.
 >
 >[Download Visual C++ Redistributable Package.](https://docs.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170)
 
-### Setup your Antivirus
-Before you go down the route of "I don't have an antivirus" - you do, it's built into Windows. You need to exclude your Wabbajack folder and your Merethic installation folder from your antivirus' real-time protection stuff as it will interfere with your install and worst case, it can remove files, ruining your install. It can and will interfere whilst you are playing too, causing poor performance and obvious stuttering.
+## Setup your Antivirus
+Before you say "I don't have an antivirus" - you do, it's built into Windows. You *need* to exclude your Wabbajack folder and your Merethic installation folder from your antivirus' real-time protection stuff as it will interfere with your install. It can and will interfere whilst you are playing too, causing poor performance and obvious stuttering.
 
 > [!TIP]
 > How do I do this, you ask? [Click here to find out how.](https://support.microsoft.com/en-gb/windows/add-an-exclusion-to-windows-security-811816c0-4dfd-af4a-47e4-c301afe13b26)
 
 If you use another antivirus program, refer to their steps for adding an exclusion.
 
-If you use Webroot, BitDefender, Norton or Kaspersky, I recommend you stop using these as these programs ***actively*** interfere with modlists even when they are excluded. Plus, you're wasting your money.
+***If you use Webroot, BitDefender, Norton or Kaspersky, I recommend you stop using these as these programs ***actively*** interfere with modlists even when they are excluded. Plus, you're wasting your money.***
 
-### Setup your Page File
+## Setup your Page File
 Skyrim modlists need a large amount of memory to allocate, even if you have large amounts of RAM. To setup your pagefile;
 
 1. Hold down the *LEFT* Windows key and press **R**
@@ -130,17 +122,17 @@ Skyrim modlists need a large amount of memory to allocate, even if you have larg
 13. Press APPLY and then OK
 14. Restart your PC to apply the pagefile setting
 
-### Disable Steam Overlay
+## Disable Steam Overlay
 The Steam overlay is known to cause issues, especially when using ENBs. Do so by heading into Steam, right clicking on Skyrim in your game library and clicking **Properties** > **General** > **Deselect "Enable Steam Overlay while in-game"**.
 
-### Set game language to English
+## Set game language to English
 Wabbajack and some/most of the modding tools out there only support English language versions of Skyrim. Right click on Skyrim in your game library and click **Properties** > **Language** > **Select English**.
 
-### Change Steam's Updating Behavior
+## Change Steam's Updating Behavior
 Do this by right clicking on Skyrim in your game library and clicking **Properties** > **Updates** > **Change Automatic Updates to "Only update this game when I launch it"**. Whilst you're in here, it's also recommended to disable Steam Cloud too.
 
-## Wabbajack
-Installing the list is straight forward, Wabbajack will do most of the heavy lifting for you - you only have to tell it where to put stuff. Grab Merethic from the iAmDiscord #list-updates channel, once its downloaded the initial stuff it needs, Wabbajack will have 2 things for you to do - fill in the installation location and the download location.
+# Installation
+Installing the list is straight forward, Wabbajack will do most of the heavy lifting for you - you only have to tell it where to put stuff.
 
 Set the installation location to a folder on the root of a drive, something like `C:\Merethic`. Do not install it to one of the protected folders as mentioned earlier. The download location will have likely been filled in for you too - ensure it matches the directory you set for the installation location, or if you have multiple Skyrim modlists installed, use a common download folder - this will stop you from having to redownload common mods across multiple modlists.
 
@@ -150,7 +142,10 @@ Set the installation location to a folder on the root of a drive, something like
 >It's best if you use a common folder for all of your Skyrim modlist downloads, to save repeatedly downloading the same mods over and over again.
 
 ## Commonly Failing Downloads
-Downloads from non-Nexus file hosts often refuse to download automatically via Wabbajack for reasons unknown. Any files that might give you trouble [can be found here for manual download](https://github.com/iAmMe27/Merethic/wiki).
+Downloads from non-Nexus file hosts often refuse to download automatically via Wabbajack for reasons. 
+
+1. [All Manual Downloads are listed here.](https://github.com/iAmMe27/Merethic/wiki)
+2. [All known problematic files are listed here.](ProblematicFiles.md)
 
 Download these files and place them *as they are* into the Resource Download folder.
 

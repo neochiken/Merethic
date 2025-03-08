@@ -110,8 +110,8 @@ Release published on the Wabbajack Gallery :)
 
 **Merethic is now built on Skyrim v1.6.1170!**
 
-1. Updated/Added/Removed various SKSE mods as needed to transition to v1.6.117
-2. Updated Sireroot
+1. Updated/Added/Removed various SKSE mods as needed to transition to v1.6.1170
+2. Updated Sirenroot
 3. Updated a bunch of misc mods
 4. Replaced FNIS/Nemesis with Pandora
 5. Fixed issues with Dismemberment Framework for humanoids
@@ -139,7 +139,7 @@ Release published on the Wabbajack Gallery :)
 26. Removed Custom Skills Menu
 27. Removed Sky Idles
 28. Added SexLab Framework PPlus
-29. Added SexLab Framework PPlus - Autonated SLSB Conversions
+29. Added SexLab Framework PPlus - Automated SLSB Conversions
 30. Added Misty Skye CBBE 3BA Patch
 31. Added Solstice - a custom standing stones mod for Merethic
 32. Added Merethic Insight
@@ -192,3 +192,32 @@ Release published on the Wabbajack Gallery :)
 79. Added Natural Pubic Hairstyles
 80. Started some first person outfit fixes such as mismatched colours. If you spot any, let me know.
 81. Changed BnP skin choices. If you want the pre-v1.10 skin config, find it in the `Appearance` separator
+
+## Merethic v1.1.1
+1. Fixed shield not being put on player back
+2. Fixed shield + 1 handed weapon sheathe/unsheathe animation conditions
+3. Fixed the SMP AVX512 DLL being for the wrong game version
+4. Fixed controller CTD's
+5. Fixed walking + blocking anims not working
+6. Added Dear Diary Dark Mode Persistence Fix
+7. Added Ultrawide fixes for Achievement Injector
+
+## Merethic v1.1.2
+1. Fixed the busted control map
+2. Fixed location of the Steed Stone
+3. Fixed missing Ultrawide patches for Achievement Injector
+
+## Merethic v1.1.3
+1. Fixed some poor balancing in Solstice
+2. Fixed wigs preventing SMP hairs from animating again
+3. Fixed animation priority conflicts
+4. Fixed some floating mushrooms around Riverwood
+5. Swapped the female `No Armor` animations to better ones
+6. Added new KS Retex for Funsies
+
+## Merethic v1.1.4
+1. More animation tweaking
+2. Added Cozy Gates of Riverwood
+3. Added some ~~bootyfull~~ new crafting animations
+4. Fixed up Riverwood with a bunch of multiway patching
+5. Updated FlufyFox Human & Creature animations
