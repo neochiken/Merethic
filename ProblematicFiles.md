@@ -20,3 +20,6 @@ https://www.nexusmods.com/Core/Libs/Common/Widgets/DownloadPopUp?id=564025&nmm=1
 
 ## [Dint999] BDOR Hairs SSE 0.17
 https://drive.usercontent.google.com/download?id=1tpY3bDs-LR6rptf8oPUfraKs1CkxJJB3&export=download&authuser=0
+
+## EyesMod3_FullUncompressed2K
+https://disk.yandex.ru/d/ogrEiFwGFnNcLQ
