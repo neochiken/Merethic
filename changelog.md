@@ -1,5 +1,8 @@
 # Merethic Changelog
 
+<Details>
+<summary>Public Beta Builds</summary>
+
 ## Public Beta 1
 Initial public release.
 
@@ -58,6 +61,8 @@ Initial public release.
 14. Added Auri's Mount Thistlefoot Texture Fix
 15. Added ENB Anti-Aliasing
 16. Added some cursed stuff :^)
+
+</details>
 
 ## Merethic V1.0
 Release published on the Wabbajack Gallery :)
@@ -221,3 +226,17 @@ Release published on the Wabbajack Gallery :)
 3. Added some ~~bootyfull~~ new crafting animations
 4. Fixed up Riverwood with a bunch of multiway patching
 5. Updated FlufyFox Human & Creature animations
+
+## Merethic v1.2
+1. Swapped to the Nexus release of Yev Mods Makeup Pack
+2. Added Skyrim Safe Save System Overhaul 2
+3. Added CBBE 3BA (3BBB) - Race Scale Fix
+4. Added ENB Frame Generation
+   1. This mod comes with caveats - read the mod page before using it!
+5. Added Terrain Helper for ENB
+6. Added ENB Terrain Blending Fix
+7. Added another jiggle config
+8. Added more body presets
+9. Added FOMOD Plus MO2 Plugin
+10. Added MO2 Download Manager
+11. Removed Safe Save System Overhaul 3

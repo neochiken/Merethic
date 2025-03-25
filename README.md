@@ -104,7 +104,10 @@ If you use another antivirus program, refer to their steps for adding an exclusi
 ***If you use Webroot, BitDefender, Norton or Kaspersky, I recommend you stop using these as these programs ***actively*** interfere with modlists even when they are excluded. Plus, you're wasting your money.***
 
 ## Setup your Page File
-Skyrim modlists need a large amount of memory to allocate, even if you have large amounts of RAM. To setup your pagefile;
+Skyrim modlists need a large amount of memory to allocate, even if you have large amounts of RAM.
+
+<details>
+<summary>To setup your pagefile:</summary>
 
 1. Hold down the *LEFT* Windows key and press **R**
 2. Type in `systempropertiesadvanced` in the run box and then press ENTER
@@ -121,6 +124,8 @@ Skyrim modlists need a large amount of memory to allocate, even if you have larg
 12. Press OK
 13. Press APPLY and then OK
 14. Restart your PC to apply the pagefile setting
+
+</details>
 
 ## Disable Steam Overlay
 The Steam overlay is known to cause issues, especially when using ENBs. Do so by heading into Steam, right clicking on Skyrim in your game library and clicking **Properties** > **General** > **Deselect "Enable Steam Overlay while in-game"**.
