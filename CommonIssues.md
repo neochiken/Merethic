@@ -20,7 +20,7 @@ Please help me to help yourself here. Search this page and please also use the D
 ## Download Issues
 
 #### Commonly Failing Downloads
-It's one of the files on the commonly failing downloads list. Wabbajack even gives you report now, please read that to know exactly what files you missed. [All commonly failing downloads can be found on the Wiki page here.](https://github.com/iAmMe27/WoD/wiki)
+It's one of the files on the commonly failing downloads list. Wabbajack even gives you report now, please read that to know exactly what files you missed. [All commonly failing downloads can be found on the Wiki page here.](https://github.com/iAmMe27/Merethic/wiki)
 
 #### Nexus Login Expired
 Your Nexus login expired. In the Wabbajack settings, log out of Nexus and then re-login.
