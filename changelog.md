@@ -719,3 +719,35 @@ Release published on the Wabbajack Gallery :)
 Far too many to list, to the point I lost track :^)
 
 </details>
+
+## Merethic v1.3.1
+
+### Added Mods
+None
+
+### Updated Mods
+None
+
+### Removed Mods
+1. Removed TRX Futanari Addon
+2. Removed TRX Futanari Horse Addon
+3. Removed SOS Pubic Hair for Futa Addon
+
+### Fixes
+None
+
+## Merethic v1.3.2
+
+### Added Mods
+1. Added replacement for TRX Futa and Horse Futa
+2. Patched the SOS pubic hair for futa mod
+3. Added an option in the iAm's Choice separator (for now) for pp hoods (iykyk)
+
+### Updated Mods
+None
+
+### Removed Mods
+None
+
+### Fixes
+1. Fixed Remiel missing bodyslide files
