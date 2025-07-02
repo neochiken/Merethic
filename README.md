@@ -31,11 +31,13 @@ Merethic is a NSFW Skyrim modlist that aims to improve and add upon the Skyrim e
   - [Install Microsoft Visual C++ Redistributable Packages](#install-microsoft-visual-c-redistributable-packages)
   - [Setup your Antivirus](#setup-your-antivirus)
   - [Setup your Page File](#setup-your-page-file)
+  - [Remove OneDrive](#remove-onedrive)
   - [Disable Steam Overlay](#disable-steam-overlay)
   - [Set game language to English](#set-game-language-to-english)
   - [Change Steam's Updating Behavior](#change-steams-updating-behavior)
 - [Installation](#installation)
   - [Commonly Failing Downloads](#commonly-failing-downloads)
+  - [Other Installation Issues](#other-installation-issues)
 - [Post-Installation](#post-installation)
   - [Creating a desktop shortcut](#creating-a-desktop-shortcut)
 - [Mod Setup](#mod-setup)
@@ -51,9 +53,9 @@ Just to set some expectations and boundaries surrounding modlist development her
    
 3. Do not expect a 100% polished, well-balanced and "perfect" experience. I am a 1-person dev team and expecting more from me than you would from AAA game studios is insanity.
    
-4. We're modding a nearly 13 year old game here, please temper your expectations some.
+4. We're modding a nearly 14 year old game here, please temper your expectations some.
    
-5. I won't have a specific area for suggestions for mods to add. I have one for WoD and from what I've seen there and in other modlist situations is that people suggest mods that don't fit a lists theme or generally "bad" mods and then feel as if they're ignored or get annoyed when we say "won't add this".
+5. I won't have a specific area for suggestions for mods to add. I used to have one and from what I've seen there and in other modlist situations is that people suggest mods that don't fit a lists theme or generally "bad" mods and then feel as if they're ignored or get annoyed when we say "won't add this".
 
 # Hardware Requirements
 
@@ -66,15 +68,16 @@ Just to set some expectations and boundaries surrounding modlist development her
 
 |             | Total Space   | Storage Type        |
 |-------------|---------------|---------------------|
-| Minimum     | 450GB         | SATA SSD            |
-| Recommended | 600GB         | NVMe SSD            |
+| Minimum     | 600GB         | SATA SSD            |
+| Recommended | 700GB         | NVMe SSD            |
 
-Your installation must be on an ***internal*** SSD. External SSDs & HDDs are too slow for modlists to run from.
+Your installation must be on an ***internal*** SSD. External SSDs & HDDs are too slow for modlists to run from. Downloads **can** be put onto an external SSD or HDD.
 
 # You Will Need
   * A Nexus Premium Account
   * A LoversLab Account
   * Patience
+  * The ability to read - *if you got this far, I commend your ability* :)
 
 # Pre-Installation
 
@@ -127,11 +130,14 @@ Skyrim modlists need a large amount of memory to allocate, even if you have larg
 
 </details>
 
+## Remove OneDrive
+If you have OneDrive and it is sync'ing your Documents folder, it's time to remove it. It will interfere with saves and will lead to crashes whilst you're playing.
+
 ## Disable Steam Overlay
 The Steam overlay is known to cause issues, especially when using ENBs. Do so by heading into Steam, right clicking on Skyrim in your game library and clicking **Properties** > **General** > **Deselect "Enable Steam Overlay while in-game"**.
 
 ## Set game language to English
-Wabbajack and some/most of the modding tools out there only support English language versions of Skyrim. Right click on Skyrim in your game library and click **Properties** > **Language** > **Select English**.
+Wabbajack and Merethic only support English language versions of Skyrim. Right click on Skyrim in your game library and click **Properties** > **Language** > **Select English**.
 
 ## Change Steam's Updating Behavior
 Do this by right clicking on Skyrim in your game library and clicking **Properties** > **Updates** > **Change Automatic Updates to "Only update this game when I launch it"**. Whilst you're in here, it's also recommended to disable Steam Cloud too.
@@ -153,6 +159,9 @@ Downloads from non-Nexus file hosts often refuse to download automatically via W
 2. [All known problematic files are listed here.](ProblematicFiles.md)
 
 Download these files and place them *as they are* into the Resource Download folder.
+
+## Other Installation Issues
+[See here for a whole list of common issues and their solutions](CommonIssues.md)
 
 # Post-Installation
 After Wabbajack has given you the installation successful screen, you're free to close it. Navigate to the Merethic installation folder and run MO2 by double-clicking `ModOrganizer.exe`.
