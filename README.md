@@ -186,7 +186,7 @@ When starting a new game, create your character and once done, *DO NOTHING ELSE*
 
 **IED currently needs manual setup:**
 
-Without the game paused, press `BACKSPACE` to open the IED menu and in the top menu bar, click `View` and then `Gear Nodes` to open the Gear Positioning menu.
+Without the game paused, press `RIGHT SHIFT + BACKSPACE` to open the IED menu and in the top menu bar, click `View` and then `Gear Nodes` to open the Gear Positioning menu.
 
 ![](img/IED01.jpg)
 
