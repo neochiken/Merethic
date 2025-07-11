@@ -42,9 +42,9 @@ You'll need to wait for a modlist update.
 
 ## Installation Issues
 
-1. Hashes don't match for texture files (files that end in `.DDS`) - Your Wabbajack version is outdated, make sure you are using v3.7.0.0 or later.
+1. Hashes don't match for texture files (files that end in `.dds`) - Your Wabbajack version is outdated, make sure you are using v4.0.0.0 or later.
 
-2. File is corrupt (usually `.ba2` files) - Wabbajack will tell you what file the error is with in its log as well as to delete it and retry the install. Follow the steps given to you by Wabbajack.
+2. File is corrupt (usually `.bsa` files) - Wabbajack will tell you what file the error is with in its log as well as to delete it and retry the install. Follow the steps given to you by Wabbajack.
 
 3. Your storage drives are full - both the installation drive and the drive you have Wabbajack on need a free space for the installation to be possible.
 

@@ -66,10 +66,9 @@ Just to set some expectations and boundaries surrounding modlist development her
 
 ## Storage Space
 
-|             | Total Space   | Storage Type        |
-|-------------|---------------|---------------------|
-| Minimum     | 600GB         | SATA SSD            |
-| Recommended | 700GB         | NVMe SSD            |
+| Downloads   | Installation   | Total   |
+|-------------|----------------|---------|
+| 276GB       | 530GB          | 806GB   |
 
 Your installation must be on an ***internal*** SSD. External SSDs & HDDs are too slow for modlists to run from. Downloads **can** be put onto an external SSD or HDD.
 
