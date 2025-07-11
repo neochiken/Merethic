@@ -53,6 +53,12 @@ You'll need to wait for a modlist update.
 #### Sanity Check Error whilst installing Rayek's End
 This is actually caused by your PC having a different system locale installed, such as Japanese alphabets. [There is a simple fix here.](https://github.com/ForgottenGlory/Living-Skyrim-2/issues/69#issuecomment-643644342)
 
+To summarise the fix here, you need to:
+1. Open the Rayek's End zip file.
+2. Manually extract `Meshes\Oaristys\Clutter\Mirror • nif` and place it in `Merethic\mods\Rayek's End - SSE Expanded Edition` (so you should have a file path of `Merethic\mods\Rayek's End - SSE Expanded Edition\Meshes\Oaristys\Mirror • nif`).
+3. Rename the NIF file to `Mirror°.nif` (this is the degrees symbol).
+4. Rerun Wabbajack, it should see this renamed file and continue on with the install.
+
 ## Game Crashes
 Heavily modded Bethesda games are prone to crashing at times. Generally speaking, the following is true:
 

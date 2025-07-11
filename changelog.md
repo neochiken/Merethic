@@ -751,3 +751,29 @@ None
 
 ### Fixes
 1. Fixed Remiel missing bodyslide files
+
+## Merethic v1.3.3
+
+### Added Mods
+1. Added [Perfectly Valid Wards](https://www.nexusmods.com/skyrimspecialedition/mods/153401)
+2. Added [Dragon Wing Flapping Animation Fix](https://www.nexusmods.com/skyrimspecialedition/mods/154023)
+3. Added [Explosion Collision Fix](https://www.nexusmods.com/skyrimspecialedition/mods/154076)
+
+### Updated Mods
+None
+
+### Removed Mods
+None
+
+### Fixes
+1. Fixed perk trees not being correct, missing links etc.
+2. Fixed up some of the custom patching - you probably won't notice any of this, most of it is inconsequential stuff anyway
+3. Fixed some invisible items :^)
+4. Fixed Argonian PP blending not being right
+5. Fixed the Merethic PP addons showing in the armor menu
+6. Fixed Auri missing her hands when using her default outfit
+7. Fixed some more floating things
+8. Fixed missing xLODGen output - the map has roads again :^)
+
+### Tweaks
+1. Tweaked water settings in the ENB so its less reflective (it doesn't look like a mirror anymore)
