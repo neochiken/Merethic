@@ -17,6 +17,9 @@ Merethic is a NSFW Skyrim modlist that aims to improve and add upon the Skyrim e
 # Need Support?
 [![DiscordButton](img/DiscordButton.png)](https://discord.gg/iAmModlist)
 
+# Load Order Library
+[Preview of the modlist can be found on Load Order Library here.](https://loadorderlibrary.com/lists/merethic-3)
+
 # Contents
 - [What is Merethic?](#what-is-merethic)
 - [Quick Links](#quick-links)
@@ -106,7 +109,7 @@ Before you say "I don't have an antivirus" - you do, it's built into Windows. Yo
 If you use another antivirus program, refer to their steps for adding an exclusion.
 
 > [!WARNING]
-> If you use Webroot, BitDefender, Norton or Kaspersky, I recommend you stop using these as these programs ***actively*** interfere with modlists even when they are excluded. Plus, you're wasting your money.***
+> If you use Webroot, BitDefender, Norton or Kaspersky, I recommend you stop using these as these programs ***actively*** interfere with modlists even when they are excluded. Plus, you're wasting your money.
 
 ## Setup your Page File
 Skyrim modlists need a large amount of memory to allocate, regardless of how much RAM you have.

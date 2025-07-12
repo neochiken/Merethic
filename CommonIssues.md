@@ -70,3 +70,8 @@ Before you report a crash, consider these rules and also read below to see if yo
 
 #### 1. Overlay Software
 Software such as **Medal**, **EVGA Precision** and **MSI Afterburner** are the most common causes of this - anything that hooks the display to show or record stuff on screen. Close the software and test again.
+
+#### 2. OBody Crashes
+OBody crashes are not actually caused by OBody but actually by the RaceMenu DLL `skee64.dll` - in these types of crashes, you will see this DLL referenced. These crashes happen just as you're travelling through the world and are random.
+
+Merethic has all the known fixes, tweaks and INI settings implemented but these still happen from time to time. The OBody devs blame RaceMenu and the RaceMenu dev blames OBody so we're likely not going to get a fix for this one any time soon.
