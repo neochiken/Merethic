@@ -64,7 +64,9 @@ Just to set some expectations and boundaries surrounding modlist development her
 | Minimum     | Intel 7th Gen,  AMD 3000 Series | 16GB DDR4 @ 3000MHz | RTX 3070 (at least 8GB of VRAM) |
 | Recommended | Intel 9th Gen, AMD 5800X        | 32GB DDR4 @ 3600MHz | RTX 4070                        |
 
-## Storage Space
+## Storage Space 
+
+As of v1.3.3, the current storage requirements are:
 
 | Downloads   | Installation   | Total   |
 |-------------|----------------|---------|
@@ -103,10 +105,11 @@ Before you say "I don't have an antivirus" - you do, it's built into Windows. Yo
 
 If you use another antivirus program, refer to their steps for adding an exclusion.
 
-***If you use Webroot, BitDefender, Norton or Kaspersky, I recommend you stop using these as these programs ***actively*** interfere with modlists even when they are excluded. Plus, you're wasting your money.***
+> [!WARNING]
+> If you use Webroot, BitDefender, Norton or Kaspersky, I recommend you stop using these as these programs ***actively*** interfere with modlists even when they are excluded. Plus, you're wasting your money.***
 
 ## Setup your Page File
-Skyrim modlists need a large amount of memory to allocate, even if you have large amounts of RAM.
+Skyrim modlists need a large amount of memory to allocate, regardless of how much RAM you have.
 
 <details>
 <summary>To setup your pagefile:</summary>
@@ -154,8 +157,7 @@ Set the installation location to a folder on the root of a drive, something like
 ## Commonly Failing Downloads
 Downloads from non-Nexus file hosts often refuse to download automatically via Wabbajack for reasons. 
 
-1. [All Manual Downloads are listed here.](https://github.com/iAmMe27/Merethic/wiki)
-2. [All known problematic files are listed here.](ProblematicFiles.md)
+[All known problematic downloads are listed here.](https://github.com/iAmMe27/Merethic/wiki)
 
 Download these files and place them *as they are* into the Resource Download folder.
 
