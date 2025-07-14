@@ -1,5 +1,13 @@
 # Gameplay
 
+## Content
+1. [Getting Started](#getting-started)
+2. [Where do I go from there?](#where-do-i-go-from-there?)
+3. [Quests & Content](#quests-&-content)
+4. [New Lands](#new-lands)
+5. [Levelling](#Levelling)
+6. [Misc Stuff](#misc-stuff)
+
 ## Getting Started
 The easiest way to get started is head to your nearest town or village and take on some basic Missive quests. They don't necessarily pay a massive amount of gold but most of them are simple and don't require diving in dungeons, making them a easy way to earn some starter XP and gold.
 
@@ -91,3 +99,8 @@ Only a powerful mage can get here.
 Levelling in Merethic is different to vanilla Skyrim in that you don't level a skill by using it. We use static Skill Levelling whereby you get given a certain number of points to distribute across skills every time you level up. The Vokriinator Black perk trees are very large so there will always be something to spend perk points on.
 
 There may also be other methods of gaining insight but these are rare across the world of Tamriel.
+
+## Misc Stuff
+
+### Bathing
+As of Merethic v1.3, we have Bathing in Skyrim. Over time, you will get dirty which will give you minor debuffs. You need to bathe and can do so if you have soap of some kind and a deep enough body of water *or* ask at any inn to use their bath. Some player homes will also come with their own private baths.
