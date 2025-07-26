@@ -2,6 +2,9 @@
 
 ## How do I...?
 
+### Add/Remove Futa on my Character?
+Schlongs of Skyrim MCM menu -> Player Options, change as desired.
+
 ### Add/Remove/Change Pubic Hair on my Character?
 Schlongs of Skyrim MCM menu -> Player Options, change as desired.
 
