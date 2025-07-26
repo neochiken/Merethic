@@ -1,6 +1,6 @@
 # Gameplay
 
-## Content
+## Contents
 1. [Getting Started](#getting-started)
 2. [Where do I go from there?](#where-do-i-go-from-there?)
 3. [Quests & Content](#quests-&-content)

@@ -12,6 +12,8 @@ Merethic is a NSFW Skyrim modlist that aims to improve and add upon the Skyrim e
 
 :exclamation: [Common Issues](CommonIssues.md)
 
+:question: [Frequently Asked Questions](FAQ.md)
+
 :wrench: [Advanced Extras - including Performance LODs](Advanced.md)
 
 # Need Support?
