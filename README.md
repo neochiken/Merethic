@@ -37,7 +37,8 @@ Please make sure to ask your question in the appropriate channel
 
 # Support me?
 
-If you like the modlist, consider buying me a coffee or something.
+If you like the modlist, consider buying me a coffee or something.  
+
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/Z8Z7CKSPJ)
 
 # Load Order Library
