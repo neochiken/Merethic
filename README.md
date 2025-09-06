@@ -32,8 +32,8 @@ Still haven't found an answer to your problem?
 Please make sure to ask your question in the appropriate channel.
 
 - merethic-general -> General discussion about the list or included mods.
-- merethic-modified -> Support-Channel for non-vanilla Merethic installs (if you changed files, added or deleted mods in your Merethic install, ask for support here).
-- merethic-support -> Support-Channel for vanilla (unchanged) Merethic installs.
+- merethic-modified -> Support-Channel for vanilla installs (if you changed files, added or deleted mods in your install, ask for support here).
+- merethic-support -> Support-Channel for vanilla (unchanged) installs.
 
 [![DiscordButton](img/DiscordButton.png)](https://discord.gg/iAmModlist)
 
