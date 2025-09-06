@@ -2,55 +2,13 @@
 
 First things first: **this list contains adult content and you must be of legal age in your country. This means 18+ in most countries, 21+ in others. It is up to you to be sure of the age requirement in your country.**
 
-# What is Merethic?
-Merethic is a NSFW Skyrim modlist that aims to improve and add upon the Skyrim experience. It's a power fantasy list with new lands and new areas added to Skyrim to encourage exploring.
-
-# Quick Links
-:arrow_down: [All Manual Downloads](https://github.com/iAmMe27/Merethic/wiki)
-
-:file_folder: [Known Problematic Downloads](https://github.com/iAmMe27/Merethic/wiki/Known-Commonly-Failing-Downloads)
-
-:exclamation: [Common Issues](CommonIssues.md)
-
-:question: [Frequently Asked Questions](FAQ.md)
-
-:wrench: [Advanced Extras - including Performance LODs](Advanced.md)
-
-# Need Support?
-
-Please read this file and look if you find the answer to your question here first.  
-If you encounter any issues, have a look at [Common Issues](CommonIssues.md) first.
-There is also a [FAQ](FAQ.md).  
-Gameplay information can be found [here](Gameplay.md).
-
-If the documentation provided does not provide you with an answer, of if you just want to chat and hang out, feel free to join our discord (link below).
-
-## Asking for support in Discord
-If you want to ask for support in Discord, grab the "Merethic" role in onboarding or in "Channels & Roles" at the top of the channel list.  
-Please make sure to ask your question in the appropriate channel  
-
-- merethic-general -> General discussion about the list or included mods.
-- merethic-modified -> Support-Channel for non-vanilla Merethic installs (if you changed files, added or deleted mods in your Merethic install, ask for support here).
-- merethic-support -> Support-Channel for vanilla (unchanged) Merethic installs.
-
-[![DiscordButton](img/DiscordButton.png)](https://discord.gg/iAmModlist)
-
-# Support me?
-
-If you like the modlist, consider buying me a coffee or something.  
-
-[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/Z8Z7CKSPJ)
-
-# Load Order Library
-[Preview of the modlist can be found on Load Order Library here.](https://loadorderlibrary.com/lists/merethic-3)
-
 # Contents
+- [Contents](#contents)
 - [What is Merethic?](#what-is-merethic)
 - [Quick Links](#quick-links)
 - [Need Support?](#need-support)
   - [Asking on Discord](#asking-for-support-in-discord)
 - [Support me?](#support-me)
-- [Contents](#contents)
 - [Preface](#preface)
 - [Hardware Requirements](#hardware-requirements)
   - [Storage Space](#storage-space)
@@ -73,6 +31,52 @@ If you like the modlist, consider buying me a coffee or something.
 - [Mod Setup](#mod-setup)
 - [Updating Merethic](#updating-merethic)
 - [Uninstalling Merethic](#uninstalling-merethic)
+
+# What is Merethic?
+Merethic is a NSFW Skyrim modlist that aims to improve and add upon the Skyrim experience. It's a power fantasy list with new lands and new areas added to Skyrim to encourage exploring.
+
+# Quick Links
+:arrow_down: [All Manual Downloads](https://github.com/iAmMe27/Merethic/wiki)
+
+:file_folder: [Known Problematic Downloads](https://github.com/iAmMe27/Merethic/wiki/Known-Commonly-Failing-Downloads)
+
+:exclamation: [Common Issues](CommonIssues.md)
+
+:question: [Frequently Asked Questions](FAQ.md)
+
+:wrench: [Advanced Extras - including Performance LODs](Advanced.md)
+
+# Need Support?
+
+If you encounter any issues that are not answered in this file, have a look at [Common Issues](CommonIssues.md) first.  
+There is also a [FAQ](FAQ.md).  
+Gameplay information can be found [here](Gameplay.md).
+
+If the documentation provided does not provide you with an answer, of if you just want to chat and hang out, feel free to join our discord (link below).
+
+## Asking for support in Discord
+If you want to ask for support in Discord, grab the "Merethic" role in onboarding or in "Channels & Roles" at the top of the channel list.  
+Before asking your question, please use the discord search function and check pinned messages in relevant channels.
+
+Still haven't found an answer to your problem?  
+Please make sure to ask your question in the appropriate channel.
+
+- merethic-general -> General discussion about the list or included mods.
+- merethic-modified -> Support-Channel for vanilla installs (if you changed files, added or deleted mods in your install, ask for support here).
+- merethic-support -> Support-Channel for vanilla (unchanged) installs.
+
+[![DiscordButton](img/DiscordButton.png)](https://discord.gg/iAmModlist)
+
+# Support me?
+
+If you like the modlist, consider buying me a coffee or something.  
+
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/Z8Z7CKSPJ)
+
+# Load Order Library
+[Preview of the modlist can be found on Load Order Library here.](https://loadorderlibrary.com/lists/merethic-3)
+
+
 
 # Preface
 Just to set some expectations and boundaries surrounding modlist development here, there's a couple things I'd like to say first.
