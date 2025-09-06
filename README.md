@@ -2,6 +2,36 @@
 
 First things first: **this list contains adult content and you must be of legal age in your country. This means 18+ in most countries, 21+ in others. It is up to you to be sure of the age requirement in your country.**
 
+# Contents
+- [Contents](#contents)
+- [What is Merethic?](#what-is-merethic)
+- [Quick Links](#quick-links)
+- [Need Support?](#need-support)
+  - [Asking on Discord](#asking-for-support-in-discord)
+- [Support me?](#support-me)
+- [Preface](#preface)
+- [Hardware Requirements](#hardware-requirements)
+  - [Storage Space](#storage-space)
+- [You Will Need](#you-will-need)
+- [Pre-Installation](#pre-installation)
+  - [Install Microsoft Visual C++ Redistributable Packages](#install-microsoft-visual-c-redistributable-packages)
+  - [Setup your Antivirus](#setup-your-antivirus)
+  - [Setup your Page File](#setup-your-page-file)
+  - [Remove OneDrive](#remove-onedrive)
+  - [Disable Steam Overlay](#disable-steam-overlay)
+  - [Set game language to English](#set-game-language-to-english)
+  - [Change Steam's Updating Behavior](#change-steams-updating-behavior)
+  - [Install Skyrim](#install-skyrim-se)
+  - [Start the Game](#start-skyrim-se)
+- [Installation](#installation)
+  - [Commonly Failing Downloads](#commonly-failing-downloads)
+  - [Other Installation Issues](#other-installation-issues)
+- [Post-Installation](#post-installation)
+  - [Creating a desktop shortcut](#creating-a-desktop-shortcut)
+- [Mod Setup](#mod-setup)
+- [Updating Merethic](#updating-merethic)
+- [Uninstalling Merethic](#uninstalling-merethic)
+
 # What is Merethic?
 Merethic is a NSFW Skyrim modlist that aims to improve and add upon the Skyrim experience. It's a power fantasy list with new lands and new areas added to Skyrim to encourage exploring.
 
@@ -25,7 +55,7 @@ Gameplay information can be found [here](Gameplay.md).
 If the documentation provided does not provide you with an answer, of if you just want to chat and hang out, feel free to join our discord (link below).
 
 ## Asking for support in Discord
-If you want to ask for support in Discord, grab the "$GAME" role in onboarding or in "Channels & Roles" at the top of the channel list.  
+If you want to ask for support in Discord, grab the "Merethic" role in onboarding or in "Channels & Roles" at the top of the channel list.  
 Before asking your question, please use the discord search function and check pinned messages in relevant channels.
 
 Still haven't found an answer to your problem?  
@@ -46,35 +76,7 @@ If you like the modlist, consider buying me a coffee or something.
 # Load Order Library
 [Preview of the modlist can be found on Load Order Library here.](https://loadorderlibrary.com/lists/merethic-3)
 
-# Contents
-- [What is Merethic?](#what-is-merethic)
-- [Quick Links](#quick-links)
-- [Need Support?](#need-support)
-  - [Asking on Discord](#asking-for-support-in-discord)
-- [Support me?](#support-me)
-- [Contents](#contents)
-- [Preface](#preface)
-- [Hardware Requirements](#hardware-requirements)
-  - [Storage Space](#storage-space)
-- [You Will Need](#you-will-need)
-- [Pre-Installation](#pre-installation)
-  - [Install Microsoft Visual C++ Redistributable Packages](#install-microsoft-visual-c-redistributable-packages)
-  - [Setup your Antivirus](#setup-your-antivirus)
-  - [Setup your Page File](#setup-your-page-file)
-  - [Remove OneDrive](#remove-onedrive)
-  - [Disable Steam Overlay](#disable-steam-overlay)
-  - [Set game language to English](#set-game-language-to-english)
-  - [Change Steam's Updating Behavior](#change-steams-updating-behavior)
-  - [Install Skyrim](#install-skyrim-se)
-  - [Start the Game](#start-skyrim-se)
-- [Installation](#installation)
-  - [Commonly Failing Downloads](#commonly-failing-downloads)
-  - [Other Installation Issues](#other-installation-issues)
-- [Post-Installation](#post-installation)
-  - [Creating a desktop shortcut](#creating-a-desktop-shortcut)
-- [Mod Setup](#mod-setup)
-- [Updating Merethic](#updating-merethic)
-- [Uninstalling Merethic](#uninstalling-merethic)
+
 
 # Preface
 Just to set some expectations and boundaries surrounding modlist development here, there's a couple things I'd like to say first.
