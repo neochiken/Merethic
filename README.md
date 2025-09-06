@@ -18,16 +18,18 @@ Merethic is a NSFW Skyrim modlist that aims to improve and add upon the Skyrim e
 
 # Need Support?
 
-Please read this file and look if you find the answer to your question here first.  
-If you encounter any issues, have a look at [Common Issues](CommonIssues.md) first.
+If you encounter any issues that are not answered in this file, have a look at [Common Issues](CommonIssues.md) first.
 There is also a [FAQ](FAQ.md).  
 Gameplay information can be found [here](Gameplay.md).
 
 If the documentation provided does not provide you with an answer, of if you just want to chat and hang out, feel free to join our discord (link below).
 
 ## Asking for support in Discord
-If you want to ask for support in Discord, grab the "Merethic" role in onboarding or in "Channels & Roles" at the top of the channel list.  
-Please make sure to ask your question in the appropriate channel  
+If you want to ask for support in Discord, grab the "$GAME" role in onboarding or in "Channels & Roles" at the top of the channel list.  
+Before asking your question, please use the discord search function and check pinned messages in relevant channels.
+
+Still haven't found an answer to your problem?  
+Please make sure to ask your question in the appropriate channel.
 
 - merethic-general -> General discussion about the list or included mods.
 - merethic-modified -> Support-Channel for non-vanilla Merethic installs (if you changed files, added or deleted mods in your Merethic install, ask for support here).
