@@ -2,6 +2,37 @@
 
 First things first: **this list contains adult content and you must be of legal age in your country. This means 18+ in most countries, 21+ in others. It is up to you to be sure of the age requirement in your country.**
 
+# Contents
+- [Contents](#contents)
+- [What is Merethic?](#what-is-merethic)
+- [Quick Links](#quick-links)
+- [Need Support?](#need-support)
+  - [Asking on Discord](#asking-for-support-in-discord)
+- [Support me?](#support-me)
+- [Preface](#preface)
+- [Hardware Requirements](#hardware-requirements)
+  - [Storage Space](#storage-space)
+- [You Will Need](#you-will-need)
+- [Pre-Installation](#pre-installation)
+  - [Install Microsoft Visual C++ Redistributable Packages](#install-microsoft-visual-c-redistributable-packages)
+  - [Setup your Antivirus](#setup-your-antivirus)
+  - [Setup your Page File](#setup-your-page-file)
+  - [Remove OneDrive](#remove-onedrive)
+  - [Disable Steam Overlay](#disable-steam-overlay)
+  - [Set game language to English](#set-game-language-to-english)
+  - [Change Steam's Updating Behavior](#change-steams-updating-behavior)
+  - [Install Skyrim](#install-skyrim-se)
+  - [Start the Game](#start-skyrim-se)
+  - [Manually download non-Nexus mods](#manually-download-non-nexus-mods)
+- [Installation](#installation-of-the-modlist)
+  - [Commonly Failing Downloads](#commonly-failing-downloads)
+  - [Other Installation Issues](#other-installation-issues)
+- [Post-Installation](#post-installation)
+  - [Creating a desktop shortcut](#creating-a-desktop-shortcut)
+- [Mod Setup](#mod-setup)
+- [Updating Merethic](#updating-merethic)
+- [Uninstalling Merethic](#uninstalling-merethic)
+
 # What is Merethic?
 Merethic is a NSFW Skyrim modlist that aims to improve and add upon the Skyrim experience. It's a power fantasy list with new lands and new areas added to Skyrim to encourage exploring.
 
@@ -17,37 +48,36 @@ Merethic is a NSFW Skyrim modlist that aims to improve and add upon the Skyrim e
 :wrench: [Advanced Extras - including Performance LODs](Advanced.md)
 
 # Need Support?
+
+If you encounter any issues that are not answered in this file, have a look at [Common Issues](CommonIssues.md) first.  
+There is also a [FAQ](FAQ.md).  
+Gameplay information can be found [here](Gameplay.md).
+
+If the documentation provided does not provide you with an answer, of if you just want to chat and hang out, feel free to join our discord (link below).
+
+## Asking for support in Discord
+If you want to ask for support in Discord, grab the "Merethic" role in onboarding or in "Channels & Roles" at the top of the channel list.  
+Before asking your question, please use the discord search function and check pinned messages in relevant channels.
+
+Still haven't found an answer to your problem?  
+Please make sure to ask your question in the appropriate channel.
+
+- merethic-general -> General discussion about the list or included mods.
+- merethic-modified -> Support-Channel for vanilla installs (if you changed files, added or deleted mods in your install, ask for support here).
+- merethic-support -> Support-Channel for vanilla (unchanged) installs.
+
 [![DiscordButton](img/DiscordButton.png)](https://discord.gg/iAmModlist)
+
+# Support me?
+
+If you like the modlist, consider buying me a coffee or something.  
+
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/Z8Z7CKSPJ)
 
 # Load Order Library
 [Preview of the modlist can be found on Load Order Library here.](https://loadorderlibrary.com/lists/merethic-3)
 
-# Contents
-- [What is Merethic?](#what-is-merethic)
-- [Quick Links](#quick-links)
-- [Need Support?](#need-support)
-- [Contents](#contents)
-- [Preface](#preface)
-- [Hardware Requirements](#hardware-requirements)
-  - [Storage Space](#storage-space)
-- [You Will Need](#you-will-need)
-- [Pre-Installation](#pre-installation)
-  - [Creation Club Content](#creation-club-content)
-  - [Install Microsoft Visual C++ Redistributable Packages](#install-microsoft-visual-c-redistributable-packages)
-  - [Setup your Antivirus](#setup-your-antivirus)
-  - [Setup your Page File](#setup-your-page-file)
-  - [Remove OneDrive](#remove-onedrive)
-  - [Disable Steam Overlay](#disable-steam-overlay)
-  - [Set game language to English](#set-game-language-to-english)
-  - [Change Steam's Updating Behavior](#change-steams-updating-behavior)
-- [Installation](#installation)
-  - [Commonly Failing Downloads](#commonly-failing-downloads)
-  - [Other Installation Issues](#other-installation-issues)
-- [Post-Installation](#post-installation)
-  - [Creating a desktop shortcut](#creating-a-desktop-shortcut)
-- [Mod Setup](#mod-setup)
-- [Updating Merethic](#updating-merethic)
-- [Uninstalling Merethic](#uninstalling-merethic)
+
 
 # Preface
 Just to set some expectations and boundaries surrounding modlist development here, there's a couple things I'd like to say first.
@@ -85,16 +115,12 @@ Your installation must be on an ***internal*** SSD. External SSDs & HDDs are too
   * Patience
   * The ability to read - *if you got this far, I commend your ability* :)
 
+>[!WARNING]
+>Merethic requires all Creation Club content - **you need the $20 AE upgrade from Steam to install!**
+
 # Pre-Installation
 
 **This stuff needs to be done BEFORE starting the Wabbajack installation.**
-
-## Creation Club Content
-
->[!WARNING]
->Merethic requires all Creation Club content - **you need the $20 AE upgrade from Steam to install!**
->
->Remember to download all of it from the Creations menu in the vanilla game before starting the Wabbajack install.
 
 ## Install Microsoft Visual C++ Redistributable Packages
 >[!CAUTION]
@@ -149,7 +175,27 @@ Wabbajack and Merethic only support English language versions of Skyrim. Right c
 ## Change Steam's Updating Behavior
 Do this by right clicking on Skyrim in your game library and clicking **Properties** > **Updates** > **Change Automatic Updates to "Only update this game when I launch it"**. Whilst you're in here, it's also recommended to disable Steam Cloud too.
 
-# Installation
+## Install Skyrim SE
+Once you've done the steps above, you can now set Steam to download Skyrim but ***do not*** install Skyrim to a protected folder, such as `Desktop`, `Downloads` or `Program Files` of any kind. It's best to create a new, dedicated folder for it using the Steam Library function somewhere on the root of your drive such as `C:\SteamLibrary`. A lot of people have a dedicated secondary drive for their games, keeping the OS install separate; using this secondary drive will also work.
+
+## Start Skyrim SE
+Start Skyrim and let it load to the main menu.
+It will ask if you want to download the Creation Club content.
+
+Click yes and **DO NOT DO ANYTHING ELSE** until the downloads are finished.
+Tabbing out (and other actions) will cause problems with the downloaded files, so hands off the keyboard and let it do its thing.
+
+> [!TIP]
+> If you are not on a fresh install, still go into the Creations menu and make sure all Creation Club content is enabled and downloaded.
+
+## Manually download non-Nexus mods
+
+It is required that you download all non-Nexus mods in your browser prior to running Wabbajack. All links to mods not hosted on Nexus Mods can be [found here](https://github.com/iAmMe27/Merethic/wiki).
+
+> [!CAUTION]
+> Currently, downloading Loverslab mods through wabbajack does not work. Even though it shows the mod page and you can click the download button, it will not pass the file check at the end and Wabbajack will throw an error. Don't skip this step, even if you successfully downloaded LL mods through wabbajack in the past.
+
+# Installation of the Modlist
 Installing the list is straight forward, Wabbajack will do most of the heavy lifting for you - you only have to tell it where to put stuff.
 
 Set the installation location to a folder on the root of a drive, something like `C:\Merethic`. Do not install it to one of the protected folders as mentioned earlier. The download location will have likely been filled in for you too - ensure it matches the directory you set for the installation location, or if you have multiple Skyrim modlists installed, use a common download folder - this will stop you from having to redownload common mods across multiple modlists.
