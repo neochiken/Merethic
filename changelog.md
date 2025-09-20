@@ -777,3 +777,17 @@ None
 
 ### Tweaks
 1. Tweaked water settings in the ENB so its less reflective (it doesn't look like a mirror anymore)
+
+## Merethic v1.3.4
+
+### Added Mods
+1. Added [Fabulous Makeup 2 - Racemenu Overlays](https://www.nexusmods.com/skyrimspecialedition/mods/154696)
+2. Added [Femmequins - Female Mannequins SE](https://www.nexusmods.com/skyrimspecialedition/mods/15828) - *you can turn this off in the `Optionals` separator if you don't want these.
+3. Added a custom bath to Hendraheim. I will likely make more custom ones for the other player houses over time.
+4. Custom generated missing parallax textures for High Hrothgar.
+
+### Updated Mods
+1. Updated Demonic Creatures to v2.0
+
+### Removed Mods
+None
