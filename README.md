@@ -53,7 +53,10 @@ If you encounter any issues that are not answered in this file, have a look at [
 There is also a [FAQ](FAQ.md).  
 Gameplay information can be found [here](Gameplay.md).
 
-If the documentation provided does not provide you with an answer, of if you just want to chat and hang out, feel free to join our discord (link below).
+If the documentation provided does not provide you with an answer, or if you just want to chat and hang out, feel free to join our discord (link below).
+
+> [!WARNING]
+> Only Windows 10 or 11 operating systems are supported. Windows LTSC, special variants, lightened editions or any other modified variant ***WILL NOT WORK.*** Linux installations also ***WILL NOT WORK.***
 
 ## Asking for support in Discord
 If you want to ask for support in Discord, grab the "Merethic" role in onboarding or in "Channels & Roles" at the top of the channel list.  
