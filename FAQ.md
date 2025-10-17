@@ -21,3 +21,14 @@ Navigate the menu by disabling freecam mode and then use `WASD` - or change the 
 
 ### Get to/Play ... content/mod?
 Read the [Gameplay](Gameplay.md) page as this outlines requirements for certain content mods.
+
+## Where are my...?
+
+### Screenshots Saved?
+in the Merethic/Stock Game folder
+
+### Saves Stored?
+Merethic/profiles/Merethic/saves
+
+### Earnings from prostitution?
+You have to actually let the scene play out long enough for them to cum to make any money from prostitution, make sure you talk to them afterwards.
