@@ -21,3 +21,17 @@ Navigate the menu by disabling freecam mode and then use `WASD` - or change the 
 
 ### Get to/Play ... content/mod?
 Read the [Gameplay](Gameplay.md) page as this outlines requirements for certain content mods.
+
+## Where are my...?
+
+### Screenshots Saved?
+in the Merethic/Stock Game folder
+Screenshots taken with the in game hotkey will go to the Merethic/Stock Game folder
+
+Screenshots taken in photo mode will go to Documents\My Games\Skyrim Special Edition\Photos
+
+### Saves Stored?
+Merethic/profiles/Merethic/saves
+
+### Earnings from prostitution?
+You have to actually let the scene play out long enough for them to cum to make any money from prostitution, make sure you talk to them afterwards.
