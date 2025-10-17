@@ -25,7 +25,9 @@ Read the [Gameplay](Gameplay.md) page as this outlines requirements for certain 
 ## Where are my...?
 
 ### Screenshots Saved?
-in the Merethic/Stock Game folder
+Screenshots taken with the in game hotkey will go to the Merethic/Stock Game folder
+
+Screenshots taken in photo mode will go to Documents\My Games\Skyrim Special Edition\Photos
 
 ### Saves Stored?
 Merethic/profiles/Merethic/saves
